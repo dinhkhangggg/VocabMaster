@@ -1,419 +1,2214 @@
 {
-  "apple": { "vi": "Quả táo", "en": "A round fruit with red or green skin", "ipa": "/ˈæp.əl/", "category": "plants" },
-  "ant": { "vi": "Con kiến", "en": "A small insect that lives in highly organized groups", "ipa": "/ænt/", "category": "animals" },
-  "art": { "vi": "Nghệ thuật", "en": "The expression of human creative skill and imagination", "ipa": "/ɑːt/", "category": "others" },
-  "animal": { "vi": "Động vật", "en": "A living organism that feeds on organic matter", "ipa": "/ˈæn.ɪ.məl/", "category": "animals" },
-  "arrow": { "vi": "Mũi tên", "en": "A weapon consisting of a thin, straight stick with a sharp point", "ipa": "/ˈær.əʊ/", "category": "objects" },
-  "bear": { "vi": "Con gấu", "en": "A large, heavy mammal that walks on the soles of its feet", "ipa": "/beər/", "category": "animals" },
-  "boat": { "vi": "Cái thuyền", "en": "A small vessel for travelling over water", "ipa": "/bəʊt/", "category": "vehicles" },
-  "bird": { "vi": "Con chim", "en": "A warm-blooded egg-laying vertebrate distinguished by the possession of feathers", "ipa": "/bɜːd/", "category": "animals" },
-  "ball": { "vi": "Quả bóng", "en": "A solid or hollow spherical or egg-shaped object", "ipa": "/bɔːl/", "category": "objects" },
-  "box": { "vi": "Cái hộp", "en": "A container with a flat base and sides", "ipa": "/bɒks/", "category": "objects" },
-  "cat": { "vi": "Con mèo", "en": "A small domesticated carnivorous mammal", "ipa": "/kæt/", "category": "animals" },
-  "car": { "vi": "Ô tô", "en": "A four-wheeled road vehicle", "ipa": "/kɑːr/", "category": "vehicles" },
-  "cow": { "vi": "Con bò", "en": "A fully grown female animal of a domesticated breed of ox", "ipa": "/kaʊ/", "category": "animals" },
-  "city": { "vi": "Thành phố", "en": "A large human settlement", "ipa": "/ˈsɪt.i/", "category": "places" },
-  "cup": { "vi": "Cái cốc", "en": "A small bowl-shaped container for drinking from", "ipa": "/kʌp/", "category": "objects" },
-  "dog": { "vi": "Con chó", "en": "A domesticated carnivorous mammal", "ipa": "/dɒɡ/", "category": "animals" },
-  "door": { "vi": "Cánh cửa", "en": "A hinged, sliding, or revolving barrier at the entrance to a building", "ipa": "/dɔːr/", "category": "objects" },
-  "desk": { "vi": "Bàn học", "en": "A piece of furniture with a flat or sloping surface", "ipa": "/desk/", "category": "objects" },
-  "duck": { "vi": "Con vịt", "en": "A waterbird with a broad blunt bill", "ipa": "/dʌk/", "category": "animals" },
-  "dart": { "vi": "Phi tiêu", "en": "A small pointed missile", "ipa": "/dɑːt/", "category": "objects" },
-  "elephant": { "vi": "Con voi", "en": "A heavy plant-eating mammal with a prehensile trunk", "ipa": "/ˈel.ɪ.fənt/", "category": "animals" },
-  "egg": { "vi": "Quả trứng", "en": "An oval or round object laid by a female bird", "ipa": "/eɡ/", "category": "objects" },
-  "ear": { "vi": "Cái tai", "en": "The organ of hearing and balance in humans", "ipa": "/ɪər/", "category": "body" },
-  "eye": { "vi": "Con mắt", "en": "Each of a pair of globular organs in the head", "ipa": "/aɪ/", "category": "body" },
-  "eagle": { "vi": "Đại bàng", "en": "A large bird of prey with a massive hooked bill", "ipa": "/ˈiː.ɡəl/", "category": "animals" },
-  "fish": { "vi": "Con cá", "en": "A limbless cold-blooded vertebrate animal", "ipa": "/fɪʃ/", "category": "animals" },
-  "frog": { "vi": "Con ếch", "en": "A tailless amphibian with a short stout body", "ipa": "/frɒɡ/", "category": "animals" },
-  "fire": { "vi": "Lửa", "en": "Combustion or burning", "ipa": "/faɪər/", "category": "nature" },
-  "flower": { "vi": "Bông hoa", "en": "The seed-bearing part of a plant", "ipa": "/ˈflaʊ.ər/", "category": "plants" },
-  "forest": { "vi": "Khu rừng", "en": "A large area covered chiefly with trees", "ipa": "/ˈfɒr.ɪst/", "category": "nature" },
-  "goat": { "vi": "Con dê", "en": "A hardy domesticated ruminant animal", "ipa": "/ɡəʊt/", "category": "animals" },
-  "game": { "vi": "Trò chơi", "en": "A form of play or sport", "ipa": "/ɡeɪm/", "category": "others" },
-  "girl": { "vi": "Cô gái", "en": "A female child", "ipa": "/ɡɜːl/", "category": "others" },
-  "gold": { "vi": "Vàng", "en": "A yellow precious metal", "ipa": "/ɡəʊld/", "category": "objects" },
-  "gun": { "vi": "Cây súng", "en": "A weapon incorporating a metal tube", "ipa": "/ɡʌn/", "category": "objects" },
-  "horse": { "vi": "Con ngựa", "en": "A solid-hoofed plant-eating domesticated mammal", "ipa": "/hɔːs/", "category": "animals" },
-  "hat": { "vi": "Cái mũ", "en": "A shaped covering for the head", "ipa": "/hæt/", "category": "objects" },
-  "house": { "vi": "Ngôi nhà", "en": "A building for human habitation", "ipa": "/haʊs/", "category": "places" },
-  "hand": { "vi": "Bàn tay", "en": "The end part of a person's arm", "ipa": "/hænd/", "category": "body" },
-  "heart": { "vi": "Trái tim", "en": "A hollow muscular organ", "ipa": "/hɑːt/", "category": "body" },
-  "ice": { "vi": "Nước đá", "en": "Frozen water", "ipa": "/aɪs/", "category": "nature" },
-  "island": { "vi": "Hòn đảo", "en": "A piece of land surrounded by water", "ipa": "/ˈaɪ.lənd/", "category": "places" },
-  "iron": { "vi": "Sắt", "en": "A strong, hard magnetic silvery-gray metal", "ipa": "/aɪən/", "category": "objects" },
-  "idea": { "vi": "Ý tưởng", "en": "A thought or suggestion as to a possible course of action", "ipa": "/aɪˈdɪə/", "category": "others" },
-  "ink": { "vi": "Mực in", "en": "A colored fluid used for writing", "ipa": "/ɪŋk/", "category": "objects" },
-  "juice": { "vi": "Nước ép", "en": "The liquid obtained from or present in fruit", "ipa": "/dʒuːs/", "category": "objects" },
-  "jar": { "vi": "Cái lọ", "en": "A wide-mouthed cylindrical container", "ipa": "/dʒɑːr/", "category": "objects" },
-  "jacket": { "vi": "Áo khoác", "en": "An outer garment extending either to the waist or the hips", "ipa": "/ˈdʒæk.ɪt/", "category": "objects" },
-  "jump": { "vi": "Nhảy", "en": "Push oneself off a surface and into the air", "ipa": "/dʒʌmp/", "category": "others" },
-  "jungle": { "vi": "Rừng nhiệt đới", "en": "An area of land overgrown with dense forest", "ipa": "/ˈdʒʌŋ.ɡəl/", "category": "nature" },
-  "kite": { "vi": "Con diều", "en": "A toy consisting of a light frame with thin material", "ipa": "/kaɪt/", "category": "objects" },
-  "key": { "vi": "Chìa khóa", "en": "A small piece of shaped metal", "ipa": "/kiː/", "category": "objects" },
-  "king": { "vi": "Vua", "en": "The male ruler of an independent state", "ipa": "/kɪŋ/", "category": "others" },
-  "knee": { "vi": "Đầu gối", "en": "The joint between the thigh and the lower leg", "ipa": "/niː/", "category": "body" },
-  "knife": { "vi": "Con dao", "en": "An instrument composed of a blade fixed into a handle", "ipa": "/naɪf/", "category": "objects" },
-  "lion": { "vi": "Sư tử", "en": "A large tawny-colored cat", "ipa": "/ˈlaɪ.ən/", "category": "animals" },
-  "lake": { "vi": "Cái hồ", "en": "A large body of water surrounded by land", "ipa": "/leɪk/", "category": "places" },
-  "lamp": { "vi": "Cái đèn", "en": "A device for giving light", "ipa": "/læmp/", "category": "objects" },
-  "leaf": { "vi": "Chiếc lá", "en": "A flattened structure of a higher plant", "ipa": "/liːf/", "category": "plants" },
-  "love": { "vi": "Tình yêu", "en": "An intense feeling of deep affection", "ipa": "/lʌv/", "category": "others" },
-  "monkey": { "vi": "Con khỉ", "en": "A small to medium-sized primate", "ipa": "/ˈmʌŋ.ki/", "category": "animals" },
-  "moon": { "vi": "Mặt trăng", "en": "The natural satellite of the earth", "ipa": "/muːn/", "category": "nature" },
-  "mouse": { "vi": "Con chuột", "en": "A small rodent", "ipa": "/maʊs/", "category": "animals" },
-  "money": { "vi": "Tiền", "en": "A current medium of exchange", "ipa": "/ˈmʌn.i/", "category": "objects" },
-  "mountain": { "vi": "Ngọn núi", "en": "A large natural elevation of the earth's surface", "ipa": "/ˈmaʊn.tɪn/", "category": "places" },
-  "nest": { "vi": "Cái tổ", "en": "A structure or place made or chosen by a bird", "ipa": "/nest/", "category": "objects" },
-  "net": { "vi": "Cái lưới", "en": "A piece of open-meshed material", "ipa": "/net/", "category": "objects" },
-  "night": { "vi": "Ban đêm", "en": "The period of darkness in each twenty-four hours", "ipa": "/naɪt/", "category": "others" },
-  "nose": { "vi": "Cái mũi", "en": "The part projecting above the mouth", "ipa": "/nəʊz/", "category": "body" },
-  "name": { "vi": "Tên", "en": "A word or set of words by which a person is known", "ipa": "/neɪm/", "category": "others" },
-  "owl": { "vi": "Cú mèo", "en": "A nocturnal bird of prey", "ipa": "/aʊl/", "category": "animals" },
-  "ocean": { "vi": "Đại dương", "en": "A very large expanse of sea", "ipa": "/ˈəʊ.ʃən/", "category": "places" },
-  "oil": { "vi": "Dầu ăn", "en": "A viscous liquid derived from petroleum", "ipa": "/ɔɪl/", "category": "objects" },
-  "orange": { "vi": "Quả cam", "en": "A round juicy citrus fruit", "ipa": "/ˈɒr.ɪndʒ/", "category": "plants" },
-  "onion": { "vi": "Củ hành", "en": "An edible bulb with a pungent taste", "ipa": "/ˈʌn.jən/", "category": "plants" },
-  "pig": { "vi": "Con lợn", "en": "An omnivorous domesticated hoofed mammal", "ipa": "/pɪɡ/", "category": "animals" },
-  "pen": { "vi": "Cái bút", "en": "An instrument for writing or drawing with ink", "ipa": "/pen/", "category": "objects" },
-  "paper": { "vi": "Tờ giấy", "en": "Material manufactured in thin sheets", "ipa": "/ˈpeɪ.pər/", "category": "objects" },
-  "plant": { "vi": "Cái cây", "en": "A living organism of the kind exemplified by trees", "ipa": "/plɑːnt/", "category": "plants" },
-  "power": { "vi": "Sức mạnh", "en": "The ability to do something or act in a particular way", "ipa": "/ˈpaʊ.ər/", "category": "others" },
-  "queen": { "vi": "Nữ hoàng", "en": "The female ruler of an independent state", "ipa": "/kwiːn/", "category": "others" },
-  "question": { "vi": "Câu hỏi", "en": "A sentence worded or expressed so as to elicit information", "ipa": "/ˈkwes.tʃən/", "category": "others" },
-  "quiet": { "vi": "Yên tĩnh", "en": "Making little or no noise", "ipa": "/ˈkwaɪ.ət/", "category": "others" },
-  "quick": { "vi": "Nhanh chóng", "en": "Moving fast or doing something in a short time", "ipa": "/kwɪk/", "category": "others" },
-  "quiz": { "vi": "Câu đố", "en": "A test of knowledge, especially a brief informal test", "ipa": "/kwɪz/", "category": "others" },
-  "rabbit": { "vi": "Con thỏ", "en": "A burrowing, gregarious, plant-eating mammal", "ipa": "/ˈræb.ɪt/", "category": "animals" },
-  "rat": { "vi": "Con chuột", "en": "A rodent that resembles a large mouse", "ipa": "/ræt/", "category": "animals" },
-  "river": { "vi": "Dòng sông", "en": "A large natural stream of water flowing in a channel", "ipa": "/ˈrɪv.ər/", "category": "places" },
-  "rain": { "vi": "Cơn mưa", "en": "Moisture condensed from the atmosphere", "ipa": "/reɪn/", "category": "nature" },
-  "red": { "vi": "Màu đỏ", "en": "Of a color at the end of the spectrum next to orange", "ipa": "/red/", "category": "others" },
-  "snake": { "vi": "Con rắn", "en": "A long limbless reptile", "ipa": "/sneɪk/", "category": "animals" },
-  "sun": { "vi": "Mặt trời", "en": "The star around which the earth orbits", "ipa": "/sʌn/", "category": "nature" },
-  "star": { "vi": "Ngôi sao", "en": "A fixed luminous point in the night sky", "ipa": "/stɑːr/", "category": "nature" },
-  "sea": { "vi": "Biển cả", "en": "The expanse of salt water that covers most of the earth", "ipa": "/siː/", "category": "places" },
-  "sand": { "vi": "Hạt cát", "en": "A loose granular substance", "ipa": "/sænd/", "category": "nature" },
-  "tiger": { "vi": "Con hổ", "en": "A very large solitary cat with a yellow-orange coat", "ipa": "/ˈtaɪ.ɡər/", "category": "animals" },
-  "tree": { "vi": "Cái cây", "en": "A woody perennial plant", "ipa": "/triː/", "category": "plants" },
-  "train": { "vi": "Tàu hỏa", "en": "A series of connected railway carriages or wagons", "ipa": "/treɪn/", "category": "vehicles" },
-  "time": { "vi": "Thời gian", "en": "The indefinite continued progress of existence", "ipa": "/taɪm/", "category": "others" },
-  "tea": { "vi": "Trà", "en": "A hot drink made by infusing the dried crushed leaves", "ipa": "/tiː/", "category": "objects" },
-  "umbrella": { "vi": "Cái ô", "en": "A device consisting of a circular canopy of cloth on a folding metal frame", "ipa": "/ʌmˈbrel.ə/", "category": "objects" },
-  "uncle": { "vi": "Chú bác", "en": "The brother of one's father or mother", "ipa": "/ˈʌŋ.kəl/", "category": "others" },
-  "unit": { "vi": "Đơn vị", "en": "An individual thing or person regarded as single and complete", "ipa": "/ˈjuː.nɪt/", "category": "others" },
-  "uniform": { "vi": "Đồng phục", "en": "The distinctive clothing worn by members of the same organization", "ipa": "/ˈjuː.nɪ.fɔːm/", "category": "objects" },
-  "use": { "vi": "Sử dụng", "en": "Take, hold, or deploy as a means of accomplishing something", "ipa": "/juːz/", "category": "others" },
-  "van": { "vi": "Xe tải", "en": "A medium-sized motor vehicle", "ipa": "/væn/", "category": "vehicles" },
-  "vase": { "vi": "Cái bình", "en": "A decorative container without handles", "ipa": "/vɑːz/", "category": "objects" },
-  "voice": { "vi": "Giọng nói", "en": "The sound produced in a person's larynx", "ipa": "/vɔɪs/", "category": "body" },
-  "village": { "vi": "Ngôi làng", "en": "A group of houses and associated buildings", "ipa": "/ˈvɪl.ɪdʒ/", "category": "places" },
-  "valley": { "vi": "Thung lũng", "en": "A low area of land between hills or mountains", "ipa": "/ˈvæl.i/", "category": "places" },
-  "water": { "vi": "Nước", "en": "A colorless, transparent, odorless liquid", "ipa": "/ˈwɔː.tər/", "category": "nature" },
-  "wood": { "vi": "Gỗ", "en": "The hard fibrous material that forms the main substance of the trunk", "ipa": "/wʊd/", "category": "plants" },
-  "wind": { "vi": "Cơn gió", "en": "The perceptible natural movement of the air", "ipa": "/wɪnd/", "category": "nature" },
-  "wolf": { "vi": "Chó sói", "en": "A wild carnivorous mammal of the dog family", "ipa": "/wʊlf/", "category": "animals" },
-  "wall": { "vi": "Bức tường", "en": "A continuous vertical brick or stone structure", "ipa": "/wɔːl/", "category": "objects" },
-  "xylophone": { "vi": "Đàn mộc cầm", "en": "A musical instrument played by striking a row of wooden bars", "ipa": "/ˈzaɪ.lə.fəʊn/", "category": "objects" },
-  "xerox": { "vi": "Máy photo", "en": "A xerographic copying process", "ipa": "/ˈzɪə.rɒks/", "category": "objects" },
-  "xray": { "vi": "Tia X", "en": "An electromagnetic wave of high energy and very short wavelength", "ipa": "/ˈeks.reɪ/", "category": "objects" },
-  "yacht": { "vi": "Du thuyền", "en": "A medium-sized sailboat equipped for cruising or racing", "ipa": "/jɒt/", "category": "vehicles" },
-  "yellow": { "vi": "Màu vàng", "en": "Of the color between green and orange in the spectrum", "ipa": "/ˈjel.əʊ/", "category": "others" },
-  "yard": { "vi": "Cái sân", "en": "A piece of uncultivated ground adjoining a building", "ipa": "/jɑːd/", "category": "places" },
-  "year": { "vi": "Năm", "en": "The time taken by the earth to make one revolution around the sun", "ipa": "/jɪər/", "category": "others" },
-  "yoga": { "vi": "Môn Yoga", "en": "A Hindu spiritual and ascetic discipline", "ipa": "/ˈjəʊ.ɡə/", "category": "others" },
-  "zebra": { "vi": "Ngựa vằn", "en": "An African wild horse with black-and-white stripes", "ipa": "/ˈzeb.rə/", "category": "animals" },
-  "zoo": { "vi": "Sở thú", "en": "An establishment which maintains a collection of wild animals", "ipa": "/zuː/", "category": "places" },
-  "zero": { "vi": "Số không", "en": "No quantity or number", "ipa": "/ˈzɪə.rəʊ/", "category": "others" },
-  "zone": { "vi": "Khu vực", "en": "An area or stretch of land having a particular characteristic", "ipa": "/zəʊn/", "category": "places" },
-  "zip": { "vi": "Khóa kéo", "en": "A device consisting of two flexible strips of metal or plastic", "ipa": "/zɪp/" },
-  "earth": { "vi": "Trái đất", "en": "The planet on which we live", "ipa": "/ɜːθ/" },
-  "east": { "vi": "Hướng đông", "en": "The direction toward the point of the horizon where the sun rises", "ipa": "/iːst/" },
-  "edge": { "vi": "Cạnh, bờ", "en": "The outside limit of an object, area, or surface", "ipa": "/edʒ/" },
-  "effect": { "vi": "Hiệu ứng", "en": "A change which is a result or consequence of an action", "ipa": "/ɪˈfekt/" },
-  "end": { "vi": "Kết thúc", "en": "A final part of something", "ipa": "/end/" },
-  "energy": { "vi": "Năng lượng", "en": "The strength and vitality required for sustained activity", "ipa": "/ˈen.ə.dʒi/" },
-  "engine": { "vi": "Động cơ", "en": "A machine with moving parts that converts power into motion", "ipa": "/ˈen.dʒɪn/" },
-  "event": { "vi": "Sự kiện", "en": "A thing that happens, especially one of importance", "ipa": "/ɪˈvent/" },
-  "table": { "vi": "Cái bàn", "en": "A piece of furniture with a flat top and one or more legs", "ipa": "/ˈteɪ.bəl/" },
-  "tail": { "vi": "Cái đuôi", "en": "The hindmost part of an animal", "ipa": "/teɪl/" },
-  "talk": { "vi": "Nói chuyện", "en": "Speak in order to give information or express ideas", "ipa": "/tɔːk/" },
-  "tank": { "vi": "Xe tăng / Bể chứa", "en": "A large receptacle or storage chamber", "ipa": "/tæŋk/" },
-  "tape": { "vi": "Băng keo", "en": "A narrow strip of material", "ipa": "/teɪp/" },
-  "task": { "vi": "Nhiệm vụ", "en": "A piece of work to be done or undertaken", "ipa": "/tɑːsk/" },
-  "taste": { "vi": "Hương vị", "en": "The sensation of flavor perceived in the mouth", "ipa": "/teɪst/" },
-  "tax": { "vi": "Thuế", "en": "A compulsory contribution to state revenue", "ipa": "/tæks/" },
-  "team": { "vi": "Đội nhóm", "en": "A group of players forming one side in a competitive game", "ipa": "/tiːm/" },
-  "tear": { "vi": "Nước mắt", "en": "A drop of clear salty liquid secreted from glands in a person's eye", "ipa": "/tɪər/" },
-  "tech": { "vi": "Công nghệ", "en": "Technology", "ipa": "/tek/" },
-  "teen": { "vi": "Thiếu niên", "en": "A person aged between 13 and 19 years", "ipa": "/tiːn/" },
-  "tent": { "vi": "Cái lều", "en": "A portable shelter made of cloth", "ipa": "/tent/" },
-  "term": { "vi": "Thuật ngữ", "en": "A word or phrase used to describe a thing", "ipa": "/tɜːm/" },
-  "test": { "vi": "Bài kiểm tra", "en": "A procedure intended to establish the quality or performance", "ipa": "/test/" },
-  "text": { "vi": "Văn bản", "en": "A book or other written or printed work", "ipa": "/tekst/" },
-  "theme": { "vi": "Chủ đề", "en": "The subject of a talk, a piece of writing", "ipa": "/θiːm/" },
-  "thing": { "vi": "Đồ vật", "en": "An object that one need not, cannot, or does not wish to give a specific name to", "ipa": "/θɪŋ/" },
-  "title": { "vi": "Tiêu đề", "en": "The name of a book, composition, or other artistic work", "ipa": "/ˈtaɪ.təl/" },
-  "tone": { "vi": "Tông giọng", "en": "A musical or vocal sound with reference to its pitch, quality, and strength", "ipa": "/təʊn/" },
-  "tool": { "vi": "Công cụ", "en": "A device or implement", "ipa": "/tuːl/" },
-  "tooth": { "vi": "Răng", "en": "Each of a set of hard, bony enamel-coated structures in the jaws of most vertebrates", "ipa": "/tuːθ/" },
-  "top": { "vi": "Đỉnh", "en": "The highest or uppermost point", "ipa": "/tɒp/" },
-  "topic": { "vi": "Đề tài", "en": "A matter dealt with in a text, discourse, or conversation", "ipa": "/ˈtɒp.ɪk/" },
-  "total": { "vi": "Tổng cộng", "en": "Comprising the whole number or amount", "ipa": "/ˈtəʊ.təl/" },
-  "tour": { "vi": "Chuyến du lịch", "en": "A journey for pleasure in which several different places are visited", "ipa": "/tʊər/" },
-  "town": { "vi": "Thị trấn", "en": "An urban area that has a name, defined boundaries, and local government", "ipa": "/taʊn/" },
-  "track": { "vi": "Đường đua", "en": "A rough path or minor road", "ipa": "/træk/" },
-  "trade": { "vi": "Thương mại", "en": "The action of buying and selling goods and services", "ipa": "/treɪd/" },
-  "trip": { "vi": "Chuyến đi", "en": "A journey or excursion, especially for pleasure", "ipa": "/trɪp/" },
-  "trouble": { "vi": "Rắc rối", "en": "Difficulty or problems", "ipa": "/ˈtrʌb.əl/" },
-  "trust": { "vi": "Niềm tin", "en": "Firm belief in the reliability, truth, ability, or strength of someone or something", "ipa": "/trʌst/" },
-  "truth": { "vi": "Sự thật", "en": "The quality or state of being true", "ipa": "/truːθ/" },
-  "tube": { "vi": "Ống", "en": "A long, hollow cylinder of metal, plastic, glass", "ipa": "/tjuːb/" },
-  "tune": { "vi": "Giai điệu", "en": "A melody, especially one that characterizes a certain piece of music", "ipa": "/tjuːn/" },
-  "turn": { "vi": "Lượt", "en": "An act of moving something in a circular direction around an axis or point", "ipa": "/tɜːn/" },
-  "type": { "vi": "Loại", "en": "A category of people or things having common characteristics", "ipa": "/taɪp/" },
-  "nation": { "vi": "Quốc gia", "en": "A large body of people united by common descent, history, culture", "ipa": "/ˈneɪ.tʃən/" },
-  "nature": { "vi": "Thiên nhiên", "en": "The phenomena of the physical world collectively", "ipa": "/ˈneɪ.tʃər/" },
-  "neck": { "vi": "Cái cổ", "en": "The part of a person's or animal's body connecting the head to the rest of the body", "ipa": "/nek/" },
-  "need": { "vi": "Nhu cầu", "en": "Circumstances in which something is necessary", "ipa": "/niːd/" },
-  "nerve": { "vi": "Dây thần kinh", "en": "A whitish fiber or bundle of fibers that transmits impulses", "ipa": "/nɜːv/" },
-  "news": { "vi": "Tin tức", "en": "Newly received or noteworthy information", "ipa": "/njuːz/" },
-  "noise": { "vi": "Tiếng ồn", "en": "A sound, especially one that is loud or unpleasant", "ipa": "/nɔɪz/" },
-  "north": { "vi": "Hướng bắc", "en": "The direction in which a compass needle normally points", "ipa": "/nɔːθ/" },
-  "note": { "vi": "Ghi chú", "en": "A brief record of facts, topics, or thoughts", "ipa": "/nəʊt/" },
-  "number": { "vi": "Con số", "en": "An arithmetical value", "ipa": "/ˈnʌm.bər/" },
-  "nurse": { "vi": "Y tá", "en": "A person trained to care for the sick or infirm", "ipa": "/nɜːs/" },
-  "dance": { "vi": "Nhảy múa", "en": "Move rhythmically to music", "ipa": "/dɑːns/" },
-  "dark": { "vi": "Bóng tối", "en": "With little or no light", "ipa": "/dɑːk/" },
-  "data": { "vi": "Dữ liệu", "en": "Facts and statistics collected together for reference or analysis", "ipa": "/ˈdeɪ.tə/" },
-  "date": { "vi": "Ngày tháng", "en": "The day of the month or year as specified by a number", "ipa": "/deɪt/" },
-  "day": { "vi": "Ngày", "en": "A period of twenty-four hours", "ipa": "/deɪ/" },
-  "dead": { "vi": "Đã chết", "en": "No longer alive", "ipa": "/ded/" },
-  "deal": { "vi": "Thỏa thuận", "en": "An agreement entered into by two or more parties", "ipa": "/diːl/" },
-  "death": { "vi": "Cái chết", "en": "The action or fact of dying or being killed", "ipa": "/deθ/" },
-  "diet": { "vi": "Chế độ ăn", "en": "The kinds of food that a person, animal, or community habitually eats", "ipa": "/ˈdaɪ.ət/" },
-  "dinner": { "vi": "Bữa tối", "en": "The main meal of the day", "ipa": "/ˈdɪn.ər/" },
-  "dirt": { "vi": "Bụi bẩn", "en": "A substance, such as mud or dust, that soils someone or something", "ipa": "/dɜːt/" },
-  "disk": { "vi": "Đĩa CD", "en": "A flat, thin, round object", "ipa": "/dɪsk/" },
-  "draw": { "vi": "Vẽ", "en": "Produce a picture or diagram by making lines and marks", "ipa": "/drɔː/" },
-  "drug": { "vi": "Thuốc", "en": "A medicine or other substance which has a physiological effect", "ipa": "/drʌɡ/" },
-  "dust": { "vi": "Bụi", "en": "Fine, dry powder consisting of tiny particles", "ipa": "/dʌst/" },
-  "duty": { "vi": "Nhiệm vụ", "en": "A moral or legal obligation", "ipa": "/ˈdjuː.ti/" },
-  "race": { "vi": "Cuộc đua", "en": "A competition between runners, horses, vehicles", "ipa": "/reɪs/" },
-  "radio": { "vi": "Đài phát thanh", "en": "The transmission and reception of electromagnetic waves", "ipa": "/ˈreɪ.di.əʊ/" },
-  "rate": { "vi": "Tỷ lệ", "en": "A measure, quantity, or frequency", "ipa": "/reɪt/" },
-  "ratio": { "vi": "Tỷ số", "en": "The quantitative relation between two amounts", "ipa": "/ˈreɪ.ʃi.əʊ/" },
-  "read": { "vi": "Đọc", "en": "Look at and comprehend the meaning of written or printed matter", "ipa": "/riːd/" },
-  "reality": { "vi": "Thực tế", "en": "The world or the state of things as they actually exist", "ipa": "/riˈæl.ə.ti/" },
-  "reason": { "vi": "Lý do", "en": "A cause, explanation, or justification for an action or event", "ipa": "/ˈriː.zən/" },
-  "record": { "vi": "Bản ghi âm", "en": "A thing constituting a piece of evidence about the past", "ipa": "/ˈrek.ɔːd/" },
-  "rent": { "vi": "Thuê", "en": "A tenant's regular payment to a landlord", "ipa": "/rent/" },
-  "reply": { "vi": "Trả lời", "en": "Say something in response to something someone has said", "ipa": "/rɪˈplaɪ/" },
-  "report": { "vi": "Báo cáo", "en": "Give a spoken or written account of something", "ipa": "/rɪˈpɔːt/" },
-  "rest": { "vi": "Nghỉ ngơi", "en": "Cease work or movement in order to relax", "ipa": "/rest/" },
-  "result": { "vi": "Kết quả", "en": "A consequence, effect, or outcome of something", "ipa": "/rɪˈzʌlt/" },
-  "rice": { "vi": "Cơm gạo", "en": "A swamp grass which is widely cultivated as a source of food", "ipa": "/raɪs/" },
-  "ride": { "vi": "Cưỡi", "en": "Sit on and control the movement of", "ipa": "/raɪd/" },
-  "ring": { "vi": "Chiếc nhẫn", "en": "A small circular band, typically of precious metal", "ipa": "/rɪŋ/" },
-  "risk": { "vi": "Rủi ro", "en": "A situation involving exposure to danger", "ipa": "/rɪsk/" },
-  "road": { "vi": "Con đường", "en": "A wide way leading from one place to another", "ipa": "/rəʊd/" },
-  "rock": { "vi": "Tảng đá", "en": "The solid mineral material forming part of the surface of the earth", "ipa": "/rɒk/" },
-  "role": { "vi": "Vai trò", "en": "An actor's part in a play, movie, etc.", "ipa": "/rəʊl/" },
-  "roll": { "vi": "Cuộn", "en": "Move or cause to move in a particular direction by turning over and over", "ipa": "/rəʊl/" },
-  "roof": { "vi": "Mái nhà", "en": "The structure forming the upper covering of a building", "ipa": "/ruːf/" },
-  "room": { "vi": "Căn phòng", "en": "Space that can be occupied", "ipa": "/ruːm/" },
-  "root": { "vi": "Rễ cây", "en": "The part of a plant which attaches it to the ground", "ipa": "/ruːt/" },
-  "rope": { "vi": "Sợi dây", "en": "A length of strong cord made by twisting together strands", "ipa": "/rəʊp/" },
-  "rose": { "vi": "Hoa hồng", "en": "A prickly bush or shrub that typically bears red, pink, yellow, or white fragrant flowers", "ipa": "/rəʊz/" },
-  "rule": { "vi": "Quy tắc", "en": "One of a set of explicit or understood regulations or principles", "ipa": "/ruːl/" },
-  "rush": { "vi": "Vội vã", "en": "Move with urgent haste", "ipa": "/rʌʃ/" },
-  "accident": { "vi": "Tai nạn", "en": "An unfortunate incident that happens unexpectedly", "ipa": "/ˈæk.sɪ.dənt/" },
-  "action": { "vi": "Hành động", "en": "The fact or process of doing something", "ipa": "/ˈæk.ʃən/" },
-  "actor": { "vi": "Diễn viên", "en": "A person whose profession is acting on the stage, in movies, or on television", "ipa": "/ˈæk.tər/" },
-  "advice": { "vi": "Lời khuyên", "en": "Guidance or recommendations concerning prudent future action", "ipa": "/ədˈvaɪs/" },
-  "airport": { "vi": "Sân bay", "en": "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft", "ipa": "/ˈeə.pɔːt/" },
-  "alarm": { "vi": "Báo động", "en": "An anxious awareness of danger", "ipa": "/əˈlɑːm/" },
-  "album": { "vi": "Quyển album", "en": "A blank book for the insertion of photographs, stamps, or pictures", "ipa": "/ˈæl.bəm/" },
-  "alcohol": { "vi": "Cồn, rượu", "en": "A colorless volatile flammable liquid", "ipa": "/ˈæl.kə.hɒl/" },
-  "alien": { "vi": "Người ngoài hành tinh", "en": "Belonging to a foreign country or nation", "ipa": "/ˈeɪ.li.ən/" },
-  "amount": { "vi": "Số lượng", "en": "A quantity of something", "ipa": "/əˈmaʊnt/" },
-  "angel": { "vi": "Thiên thần", "en": "A spiritual being believed to act as an attendant, agent, or messenger of God", "ipa": "/ˈeɪn.dʒəl/" },
-  "anger": { "vi": "Sự tức giận", "en": "A strong feeling of annoyance, displeasure, or hostility", "ipa": "/ˈæŋ.ɡər/" },
-  "angle": { "vi": "Góc độ", "en": "The space (usually measured in degrees) between two intersecting lines or surfaces", "ipa": "/ˈæŋ.ɡəl/" },
-  "answer": { "vi": "Câu trả lời", "en": "A thing said, written, or done to deal with or as a reaction to a question", "ipa": "/ˈɑːn.sər/" },
-  "area": { "vi": "Khu vực", "en": "A region or part of a town, a country, or the world", "ipa": "/ˈeə.ri.ə/" },
-  "army": { "vi": "Quân đội", "en": "An organized military force equipped for fighting on land", "ipa": "/ˈɑː.mi/" },
-  "author": { "vi": "Tác giả", "en": "A writer of a book, article, or report", "ipa": "/ˈɔː.θər/" },
-  "award": { "vi": "Giải thưởng", "en": "A prize or other mark of recognition given in honor of an achievement", "ipa": "/əˈwɔːd/" },
-  "baby": { "vi": "Em bé", "en": "A very young child, especially one newly or recently born", "ipa": "/ˈbeɪ.bi/" },
-  "back": { "vi": "Lưng", "en": "The rear surface of the human body from the shoulders to the hips", "ipa": "/bæk/" },
-  "bag": { "vi": "Cái túi", "en": "A container made of flexible material with an opening at the top", "ipa": "/bæɡ/" },
-  "balance": { "vi": "Sự cân bằng", "en": "An even distribution of weight enabling someone or something to remain upright and steady", "ipa": "/ˈbæl.əns/" },
-  "band": { "vi": "Ban nhạc", "en": "A small group of musicians and vocalists who play pop, jazz, or rock music", "ipa": "/bænd/" },
-  "bank": { "vi": "Ngân hàng", "en": "A financial establishment that invests money deposited by customers", "ipa": "/bæŋk/" },
-  "base": { "vi": "Căn cứ, đáy", "en": "The lowest part or edge of something, especially the part on which it rests", "ipa": "/beɪs/" },
-  "basket": { "vi": "Cái rổ", "en": "A container used to hold or carry things", "ipa": "/ˈbɑː.skɪt/" },
-  "bath": { "vi": "Bồn tắm", "en": "A large container for water, used for immersing and washing the body", "ipa": "/bɑːθ/" },
-  "battle": { "vi": "Trận chiến", "en": "A sustained fight between large, organized armed forces", "ipa": "/ˈbæt.əl/" },
-  "beach": { "vi": "Bãi biển", "en": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks", "ipa": "/biːtʃ/" },
-  "beauty": { "vi": "Sắc đẹp", "en": "A combination of qualities that pleases the intellect or moral sense", "ipa": "/ˈbjuː.ti/" },
-  "bed": { "vi": "Cái giường", "en": "A piece of furniture for sleep or rest", "ipa": "/bed/" },
-  "beer": { "vi": "Bia", "en": "An alcoholic drink made from yeast-fermented malt flavored with hops", "ipa": "/bɪər/" },
-  "bell": { "vi": "Cái chuông", "en": "A hollow object, typically made of metal and having the shape of a deep inverted cup", "ipa": "/bel/" },
-  "belt": { "vi": "Thắt lưng", "en": "A strip of leather or other material worn around the waist", "ipa": "/belt/" },
-  "bike": { "vi": "Xe đạp", "en": "A bicycle or motorcycle", "ipa": "/baɪk/" },
-  "blood": { "vi": "Máu", "en": "The red liquid that circulates in the arteries and veins of humans and other vertebrate animals", "ipa": "/blʌd/" },
-  "blow": { "vi": "Thổi", "en": "Make a current of air", "ipa": "/bləʊ/" },
-  "board": { "vi": "Cái bảng", "en": "A long, thin, flat piece of wood or other hard material", "ipa": "/bɔːd/" },
-  "boat": { "vi": "Cái thuyền", "en": "A small vessel for travelling over water", "ipa": "/bəʊt/" },
-  "body": { "vi": "Cơ thể", "en": "The physical structure of a person or an animal", "ipa": "/ˈbɒd.i/" },
-  "bomb": { "vi": "Quả bom", "en": "A container filled with explosive, incendiary material", "ipa": "/bɒm/" },
-  "bone": { "vi": "Khúc xương", "en": "Any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates", "ipa": "/bəʊn/" },
-  "book": { "vi": "Quyển sách", "en": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers", "ipa": "/bʊk/" },
-  "boss": { "vi": "Ông chủ", "en": "A person in charge of a worker or organization", "ipa": "/bɒs/" },
-  "bottle": { "vi": "Cái chai", "en": "A glass or plastic container with a narrow neck", "ipa": "/ˈbɒt.əl/" },
-  "bowl": { "vi": "Cái bát", "en": "A round, deep dish or basin used for food or liquid", "ipa": "/bəʊl/" },
-  "brain": { "vi": "Bộ não", "en": "An organ of soft nervous tissue contained in the skull of vertebrates", "ipa": "/breɪn/" },
-  "branch": { "vi": "Nhánh cây", "en": "A part of a tree which grows out from the trunk or from a bough", "ipa": "/brɑːntʃ/" },
-  "bread": { "vi": "Bánh mì", "en": "Food made of flour, water, and yeast or another leavening agent", "ipa": "/bred/" },
-  "bridge": { "vi": "Cây cầu", "en": "A structure carrying a road, path, railroad, or canal across a river, ravine, or other obstacle", "ipa": "/brɪdʒ/" },
-  "brush": { "vi": "Bàn chải", "en": "An implement with a handle, consisting of bristles, hair, or wire", "ipa": "/brʌʃ/" },
-  "build": { "vi": "Xây dựng", "en": "Construct by putting parts or material together over a period of time", "ipa": "/bɪld/" },
-  "bus": { "vi": "Xe buýt", "en": "A large motor vehicle carrying passengers by road", "ipa": "/bʌs/" },
-  "business": { "vi": "Doanh nghiệp", "en": "A person's regular occupation, profession, or trade", "ipa": "/ˈbɪz.nɪs/" },
-  "butter": { "vi": "Bơ", "en": "A pale yellow edible fatty substance made by churning cream", "ipa": "/ˈbʌt.ər/" },
-  "button": { "vi": "Cái nút", "en": "A small disk or knob sewn on to a garment", "ipa": "/ˈbʌt.ən/" },
-  "camp": { "vi": "Trại", "en": "A place with temporary accommodations of huts, tents, or other structures", "ipa": "/kæmp/" },
-  "capital": { "vi": "Thủ đô", "en": "The most important city or town of a country or region", "ipa": "/ˈkæp.ɪ.təl/" },
-  "card": { "vi": "Thẻ", "en": "A piece of thick, stiff paper or thin pasteboard", "ipa": "/kɑːd/" },
-  "care": { "vi": "Sự quan tâm", "en": "The provision of what is necessary for the health, welfare, maintenance, and protection of someone or something", "ipa": "/keər/" },
-  "case": { "vi": "Trường hợp", "en": "An instance of a particular situation", "ipa": "/keɪs/" },
-  "cash": { "vi": "Tiền mặt", "en": "Money in coins or notes", "ipa": "/kæʃ/" },
-  "castle": { "vi": "Lâu đài", "en": "A large building or group of buildings fortified against attack with thick walls, battlements, towers", "ipa": "/ˈkɑː.səl/" },
-  "cause": { "vi": "Nguyên nhân", "en": "A person or thing that gives rise to an action, phenomenon, or condition", "ipa": "/kɔːz/" },
-  "cell": { "vi": "Tế bào", "en": "The smallest structural and functional unit of an organism", "ipa": "/sel/" },
-  "center": { "vi": "Trung tâm", "en": "The middle point of a circle or sphere, equidistant from every point on the circumference or surface", "ipa": "/ˈsen.tər/" },
-  "chain": { "vi": "Sợi xích", "en": "A series of linked metal rings used for fastening or securing something", "ipa": "/tʃeɪn/" },
-  "chair": { "vi": "Cái ghế", "en": "A separate seat for one person, typically with a back and four legs", "ipa": "/tʃeər/" },
-  "chance": { "vi": "Cơ hội", "en": "A possibility of something happening", "ipa": "/tʃɑːns/" },
-  "change": { "vi": "Sự thay đổi", "en": "Make or become different", "ipa": "/tʃeɪndʒ/" },
-  "character": { "vi": "Nhân vật", "en": "The mental and moral qualities distinctive to an individual", "ipa": "/ˈkær.ək.tər/" },
-  "charge": { "vi": "Sạc điện", "en": "Store electrical energy in (a battery or battery-operated device)", "ipa": "/tʃɑːdʒ/" },
-  "chart": { "vi": "Biểu đồ", "en": "A sheet of information in the form of a table, graph, or diagram", "ipa": "/tʃɑːt/" },
-  "check": { "vi": "Kiểm tra", "en": "Examine (something) in order to determine its accuracy, quality, or condition", "ipa": "/tʃek/" },
-  "child": { "vi": "Đứa trẻ", "en": "A young human being below the age of puberty or below the legal age of majority", "ipa": "/tʃaɪld/" },
-  "choice": { "vi": "Sự lựa chọn", "en": "An act of selecting or making a decision when faced with two or more possibilities", "ipa": "/tʃɔɪs/" },
-  "church": { "vi": "Nhà thờ", "en": "A building used for public Christian worship", "ipa": "/tʃɜːtʃ/" },
-  "circle": { "vi": "Vòng tròn", "en": "A round plane figure whose boundary consists of points equidistant from a fixed point", "ipa": "/ˈsɜː.kəl/" },
-  "claim": { "vi": "Lời yêu cầu", "en": "State or assert that something is the case", "ipa": "/kleɪm/" },
-  "class": { "vi": "Lớp học", "en": "A set or category of things having some property or attribute in common", "ipa": "/klɑːs/" },
-  "clean": { "vi": "Sạch sẽ", "en": "Free from dirt, marks, or stains", "ipa": "/kliːn/" },
-  "clear": { "vi": "Rõ ràng", "en": "Easy to perceive, understand, or interpret", "ipa": "/klɪər/" },
-  "clock": { "vi": "Đồng hồ", "en": "A mechanical or electrical device for measuring time, indicating hours, minutes, and sometimes seconds", "ipa": "/klɒk/" },
-  "close": { "vi": "Đóng", "en": "Move or cause to move so as to cover an opening", "ipa": "/kləʊz/" },
-  "cloud": { "vi": "Đám mây", "en": "A visible mass of condensed water vapor floating in the atmosphere", "ipa": "/klaʊd/" },
-  "club": { "vi": "Câu lạc bộ", "en": "An association or organization dedicated to a particular interest or activity", "ipa": "/klʌb/" },
-  "coach": { "vi": "Huấn luyện viên", "en": "A person who trains and directs an athlete or a sports team", "ipa": "/kəʊtʃ/" },
-  "coal": { "vi": "Than đá", "en": "A combustible black or dark brown rock consisting mainly of carbonized plant matter", "ipa": "/kəʊl/" },
-  "coast": { "vi": "Bờ biển", "en": "The part of the land near the sea; the edge of the land", "ipa": "/kəʊst/" },
-  "coat": { "vi": "Áo khoác", "en": "An outer garment worn outdoors, having sleeves and typically extending below the hips", "ipa": "/kəʊt/" },
-  "code": { "vi": "Mã số", "en": "A system of words, letters, figures, or other symbols substituted for other words", "ipa": "/kəʊd/" },
-  "coffee": { "vi": "Cà phê", "en": "A hot drink made from the roasted and ground seeds of a tropical shrub", "ipa": "/ˈkɒf.i/" },
-  "cold": { "vi": "Lạnh", "en": "Of or at a low or relatively low temperature", "ipa": "/kəʊld/" },
-  "color": { "vi": "Màu sắc", "en": "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light", "ipa": "/ˈkʌl.ər/" },
-  "company": { "vi": "Công ty", "en": "A commercial business", "ipa": "/ˈkʌm.pə.ni/" },
-  "control": { "vi": "Sự điều khiển", "en": "The power to influence or direct people's behavior or the course of events", "ipa": "/kənˈtrəʊl/" },
-  "cook": { "vi": "Nấu ăn", "en": "Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways", "ipa": "/kʊk/" },
-  "cool": { "vi": "Mát mẻ", "en": "Of or at a fairly low temperature", "ipa": "/kuːl/" },
-  "copy": { "vi": "Bản sao", "en": "A thing made to be similar or identical to another", "ipa": "/ˈkɒp.i/" },
-  "corn": { "vi": "Bắp ngô", "en": "A North American cereal plant that yields large grains, or kernels, set in rows on a cob", "ipa": "/kɔːn/" },
-  "corner": { "vi": "Góc", "en": "A place or angle where two or more sides or edges meet", "ipa": "/ˈkɔː.nər/" },
-  "cost": { "vi": "Chi phí", "en": "Require the payment of (a specified sum of money) before it can be acquired or done", "ipa": "/kɒst/" },
-  "cotton": { "vi": "Bông", "en": "A soft white fibrous substance that surrounds the seeds of a tropical and subtropical plant", "ipa": "/ˈkɒt.ən/" },
-  "cough": { "vi": "Ho", "en": "Expel air from the lungs with a sudden sharp sound", "ipa": "/kɒf/" },
-  "country": { "vi": "Đất nước", "en": "A nation with its own government, occupying a particular territory", "ipa": "/ˈkʌn.tri/" },
-  "course": { "vi": "Khóa học", "en": "The route or direction followed by a ship, aircraft, road, or river", "ipa": "/kɔːs/" },
-  "cover": { "vi": "Vỏ bọc", "en": "Put something such as a cloth or lid on top of or in front of (something)", "ipa": "/ˈkʌv.ər/" },
-  "crash": { "vi": "Sự cố đâm", "en": "Collide violently with an obstacle or another vehicle", "ipa": "/kræʃ/" },
-  "cream": { "vi": "Kem", "en": "The thick white or pale yellow fatty liquid which rises to the top when milk is left to stand", "ipa": "/kriːm/" },
-  "crime": { "vi": "Tội phạm", "en": "An action or omission that constitutes an offense that may be prosecuted by the state and is punishable by law", "ipa": "/kraɪm/" },
-  "cross": { "vi": "Cây thánh giá", "en": "A mark, object, or figure formed by two short intersecting lines or pieces", "ipa": "/krɒs/" },
-  "crowd": { "vi": "Đám đông", "en": "A large number of people gathered together in a disorganized or unruly way", "ipa": "/kraʊd/" },
-  "crown": { "vi": "Vương miện", "en": "A circular ornamental headdress worn by a monarch as a symbol of authority", "ipa": "/kraʊn/" },
-  "cry": { "vi": "Khóc", "en": "Shed tears, typically as an expression of distress, pain, or sorrow", "ipa": "/kraɪ/" },
-  "culture": { "vi": "Văn hóa", "en": "The arts and other manifestations of human intellectual achievement regarded collectively", "ipa": "/ˈkʌl.tʃər/" },
-  "cure": { "vi": "Chữa bệnh", "en": "Relieve (a person or animal) of the symptoms of a disease or condition", "ipa": "/kjʊər/" },
-  "curve": { "vi": "Đường cong", "en": "A line or outline which gradually deviates from being straight for some or all of its length", "ipa": "/kɜːv/" },
-  "damage": { "vi": "Sự hư hại", "en": "Physical harm caused to something in such a way as to impair its value, usefulness, or normal function", "ipa": "/ˈdæm.ɪdʒ/" },
-  "danger": { "vi": "Mối nguy hiểm", "en": "The possibility of suffering harm or injury", "ipa": "/ˈdeɪn.dʒər/" },
-  "degree": { "vi": "Mức độ", "en": "The amount, level, or extent to which something happens or is present", "ipa": "/dɪˈɡriː/" },
-  "design": { "vi": "Thiết kế", "en": "A plan or drawing produced to show the look and function or workings of a building", "ipa": "/dɪˈzaɪn/" },
-  "detail": { "vi": "Chi tiết", "en": "An individual feature, fact, or item", "ipa": "/ˈdiː.teɪl/" },
-  "device": { "vi": "Thiết bị", "en": "A thing made or adapted for a particular purpose", "ipa": "/dɪˈvaɪs/" },
-  "diamond": { "vi": "Kim cương", "en": "A precious stone consisting of a clear and typically colorless crystalline form of pure carbon", "ipa": "/ˈdaɪə.mənd/" },
-  "disease": { "vi": "Căn bệnh", "en": "A disorder of structure or function in a human, animal, or plant", "ipa": "/dɪˈziːz/" },
-  "distance": { "vi": "Khoảng cách", "en": "An amount of space between two things or people", "ipa": "/ˈdɪs.təns/" },
-  "doctor": { "vi": "Bác sĩ", "en": "A qualified practitioner of medicine; a physician", "ipa": "/ˈdɒk.tər/" },
-  "dream": { "vi": "Giấc mơ", "en": "A series of thoughts, images, and sensations occurring in a person's mind during sleep", "ipa": "/driːm/" },
-  "dress": { "vi": "Cái váy", "en": "A one-piece garment for a woman or girl that covers the body and extends down over the legs", "ipa": "/dres/" },
-  "drink": { "vi": "Đồ uống", "en": "Take a liquid into the mouth and swallow", "ipa": "/drɪŋk/" },
-  "drive": { "vi": "Lái xe", "en": "Operate and control the direction and speed of a motor vehicle", "ipa": "/draɪv/" },
-  "drop": { "vi": "Giọt", "en": "Let or make (something) fall vertically", "ipa": "/drɒp/" },
-  "effect": { "vi": "Hiệu ứng", "en": "A change which is a result or consequence of an action or other cause", "ipa": "/ɪˈfekt/" },
-  "effort": { "vi": "Sự nỗ lực", "en": "A vigorous or determined attempt", "ipa": "/ˈef.ət/" },
-  "expert": { "vi": "Chuyên gia", "en": "A person who has a comprehensive and authoritative knowledge of or skill in a particular area", "ipa": "/ˈek.spɜːt/" },
-  "fact": { "vi": "Sự thật", "en": "A thing that is indisputably the case", "ipa": "/fækt/" },
-  "factor": { "vi": "Yếu tố", "en": "A circumstance, fact, or influence that contributes to a result or outcome", "ipa": "/ˈfæk.tər/" },
-  "factory": { "vi": "Nhà máy", "en": "A building or group of buildings where goods are manufactured or assembled chiefly by machine", "ipa": "/ˈfæk.tər.i/" },
-  "family": { "vi": "Gia đình", "en": "A group of one or more parents and their children living together as a unit", "ipa": "/ˈfæm.əl.i/" },
-  "farm": { "vi": "Nông trại", "en": "An area of land and its buildings used for growing crops and rearing animals", "ipa": "/fɑːm/" },
-  "farmer": { "vi": "Nông dân", "en": "A person who owns or manages a farm", "ipa": "/ˈfɑː.mər/" },
-  "father": { "vi": "Bố", "en": "A man in relation to his natural child or children", "ipa": "/ˈfɑː.ðər/" },
-  "fear": { "vi": "Nỗi sợ", "en": "An unpleasant emotion caused by the belief that someone or something is dangerous", "ipa": "/fɪər/" },
-  "field": { "vi": "Cánh đồng", "en": "An area of open land, especially one planted with crops or pasture", "ipa": "/fiːld/" },
-  "fight": { "vi": "Cuộc chiến", "en": "Take part in a violent struggle involving the exchange of physical blows or the use of weapons", "ipa": "/faɪt/" },
-  "figure": { "vi": "Hình dáng", "en": "A number, especially one which forms part of official statistics", "ipa": "/ˈfɪɡ.ər/" },
-  "film": { "vi": "Bộ phim", "en": "A story or event recorded by a camera as a set of moving images", "ipa": "/fɪlm/" },
-  "finger": { "vi": "Ngón tay", "en": "Each of the four slender jointed parts attached to either hand", "ipa": "/ˈfɪŋ.ɡər/" },
-  "floor": { "vi": "Sàn nhà", "en": "The lower surface of a room, on which one may walk", "ipa": "/flɔːr/" },
-  "focus": { "vi": "Trọng tâm", "en": "The center of interest or activity", "ipa": "/ˈfəʊ.kəs/" },
-  "food": { "vi": "Thức ăn", "en": "Any nutritious substance that people or animals eat or drink", "ipa": "/fuːd/" },
-  "foot": { "vi": "Bàn chân", "en": "The lower extremity of the leg below the ankle", "ipa": "/fʊt/" },
-  "force": { "vi": "Lực lượng", "en": "Strength or energy as an attribute of physical action or movement", "ipa": "/fɔːs/" },
-  "form": { "vi": "Hình thức", "en": "The visible shape or configuration of something", "ipa": "/fɔːm/" },
-  "friend": { "vi": "Bạn bè", "en": "A person whom one knows and with whom one has a bond of mutual affection", "ipa": "/frend/" },
-  "front": { "vi": "Phía trước", "en": "The side or part of an object that presents itself to view", "ipa": "/frʌnt/" },
-  "fruit": { "vi": "Trái cây", "en": "The sweet and fleshy product of a tree or other plant that contains seed and can be eaten", "ipa": "/fruːt/" },
-  "future": { "vi": "Tương lai", "en": "The time or a period of time following the moment of speaking or writing", "ipa": "/ˈfjuː.tʃər/" },
-  "garden": { "vi": "Khu vườn", "en": "A piece of ground, often near a house, used for growing flowers, fruit, or vegetables", "ipa": "/ˈɡɑː.dən/" },
-  "gas": { "vi": "Khí gas", "en": "A substance or matter in a state in which it will expand freely to fill the whole of a container", "ipa": "/ɡæs/" },
-  "gate": { "vi": "Cánh cổng", "en": "A hinged barrier used to close an opening in a wall, fence, or hedge", "ipa": "/ɡeɪt/" },
-  "gift": { "vi": "Món quà", "en": "A thing given willingly to someone without payment", "ipa": "/ɡɪft/" },
-  "glass": { "vi": "Thủy tinh", "en": "A hard, brittle substance, typically transparent or translucent", "ipa": "/ɡlɑːs/" },
-  "goal": { "vi": "Mục tiêu", "en": "The object of a person's ambition or effort; an aim or desired result", "ipa": "/ɡəʊl/" },
-  "group": { "vi": "Nhóm", "en": "A number of people or things that are located close together or are considered or classed together", "ipa": "/ɡruːp/" },
-  "guest": { "vi": "Khách", "en": "A person who is invited to visit the home of or take part in a function organized by another", "ipa": "/ɡest/" },
-  "guide": { "vi": "Hướng dẫn", "en": "A person who advises or shows the way to others", "ipa": "/ɡaɪd/" },
-  "hair": { "vi": "Tóc", "en": "Any of the fine threadlike strands growing from the skin of humans, mammals, and some other animals", "ipa": "/heər/" },
-  "half": { "vi": "Một nửa", "en": "Either of two equal or corresponding parts into which something is or can be divided", "ipa": "/hɑːf/" },
-  "hall": { "vi": "Hội trường", "en": "An area in a building onto which rooms open; a corridor", "ipa": "/hɔːl/" },
-  "head": { "vi": "Cái đầu", "en": "The upper part of the human body, or the front or upper part of the body of an animal", "ipa": "/hed/" },
-  "health": { "vi": "Sức khỏe", "en": "The state of being free from illness or injury", "ipa": "/helθ/" },
-  "heat": { "vi": "Hơi nóng", "en": "The quality of being hot; high temperature", "ipa": "/hiːt/" },
-  "history": { "vi": "Lịch sử", "en": "The study of past events, particularly in human affairs", "ipa": "/ˈhɪs.tər.i/" },
-  "hole": { "vi": "Cái lỗ", "en": "A hollow place in a solid body or surface", "ipa": "/həʊl/" },
-  "home": { "vi": "Ngôi nhà", "en": "The place where one lives permanently, especially as a member of a family or household", "ipa": "/həʊm/" },
-  "hope": { "vi": "Hy vọng", "en": "A feeling of expectation and desire for a certain thing to happen", "ipa": "/həʊp/" },
-  "hospital": { "vi": "Bệnh viện", "en": "An institution providing medical and surgical treatment and nursing care for sick or injured people", "ipa": "/ˈhɒs.pɪ.təl/" },
-  "hotel": { "vi": "Khách sạn", "en": "An establishment providing accommodations, meals, and other services for travelers and tourists", "ipa": "/həʊˈtel/" },
-  "hour": { "vi": "Giờ", "en": "A period of time equal to a twenty-fourth part of a day and night and divided into 60 minutes", "ipa": "/aʊər/" },
-  "image": { "vi": "Hình ảnh", "en": "A representation of the external form of a person or thing in art", "ipa": "/ˈɪm.ɪdʒ/" },
-  "impact": { "vi": "Sự tác động", "en": "The action of one object coming forcibly into contact with another", "ipa": "/ˈɪm.pækt/" },
-  "income": { "vi": "Thu nhập", "en": "Money received, especially on a regular basis, for work or through investments", "ipa": "/ˈɪn.kʌm/" },
-  "industry": { "vi": "Công nghiệp", "en": "Economic activity concerned with the processing of raw materials and manufacture of goods", "ipa": "/ˈɪn.də.stri/" },
-  "information": { "vi": "Thông tin", "en": "Facts provided or learned about something or someone", "ipa": "/ˌɪn.fəˈmeɪ.ʃən/" },
-  "insect": { "vi": "Côn trùng", "en": "A small arthropod animal that has six legs and generally one or two pairs of wings", "ipa": "/ˈɪn.sekt/" },
-  "interest": { "vi": "Sự quan tâm", "en": "The state of wanting to know or learn about something or someone", "ipa": "/ˈɪn.trəst/" },
-  "internet": { "vi": "Mạng internet", "en": "A global computer network providing a variety of information and communication facilities", "ipa": "/ˈɪn.tə.net/" },
-  "issue": { "vi": "Vấn đề", "en": "An important topic or problem for debate or discussion", "ipa": "/ˈɪʃ.uː/" }
+  "apple": {
+    "vi": "Quả táo",
+    "en": "A round fruit with red or green skin",
+    "ipa": "/ˈæp.əl/",
+    "category": "plants"
+  },
+  "ant": {
+    "vi": "Con kiến",
+    "en": "A small insect that lives in highly organized groups",
+    "ipa": "/ænt/",
+    "category": "animals"
+  },
+  "art": {
+    "vi": "Nghệ thuật",
+    "en": "The expression of human creative skill and imagination",
+    "ipa": "/ɑːt/",
+    "category": "others"
+  },
+  "animal": {
+    "vi": "Động vật",
+    "en": "A living organism that feeds on organic matter",
+    "ipa": "/ˈæn.ɪ.məl/",
+    "category": "animals"
+  },
+  "arrow": {
+    "vi": "Mũi tên",
+    "en": "A weapon consisting of a thin, straight stick with a sharp point",
+    "ipa": "/ˈær.əʊ/",
+    "category": "objects"
+  },
+  "bear": {
+    "vi": "Con gấu",
+    "en": "A large, heavy mammal that walks on the soles of its feet",
+    "ipa": "/beər/",
+    "category": "animals"
+  },
+  "boat": {
+    "vi": "Cái thuyền",
+    "en": "A small vessel for travelling over water",
+    "ipa": "/bəʊt/",
+    "category": "vehicles"
+  },
+  "bird": {
+    "vi": "Con chim",
+    "en": "A warm-blooded egg-laying vertebrate distinguished by the possession of feathers",
+    "ipa": "/bɜːd/",
+    "category": "animals"
+  },
+  "ball": {
+    "vi": "Quả bóng",
+    "en": "A solid or hollow spherical or egg-shaped object",
+    "ipa": "/bɔːl/",
+    "category": "objects"
+  },
+  "box": {
+    "vi": "Cái hộp",
+    "en": "A container with a flat base and sides",
+    "ipa": "/bɒks/",
+    "category": "objects"
+  },
+  "cat": {
+    "vi": "Con mèo",
+    "en": "A small domesticated carnivorous mammal",
+    "ipa": "/kæt/",
+    "category": "animals"
+  },
+  "car": {
+    "vi": "Ô tô",
+    "en": "A four-wheeled road vehicle",
+    "ipa": "/kɑːr/",
+    "category": "vehicles"
+  },
+  "cow": {
+    "vi": "Con bò",
+    "en": "A fully grown female animal of a domesticated breed of ox",
+    "ipa": "/kaʊ/",
+    "category": "animals"
+  },
+  "city": {
+    "vi": "Thành phố",
+    "en": "A large human settlement",
+    "ipa": "/ˈsɪt.i/",
+    "category": "places"
+  },
+  "cup": {
+    "vi": "Cái cốc",
+    "en": "A small bowl-shaped container for drinking from",
+    "ipa": "/kʌp/",
+    "category": "objects"
+  },
+  "dog": {
+    "vi": "Con chó",
+    "en": "A domesticated carnivorous mammal",
+    "ipa": "/dɒɡ/",
+    "category": "animals"
+  },
+  "door": {
+    "vi": "Cánh cửa",
+    "en": "A hinged, sliding, or revolving barrier at the entrance to a building",
+    "ipa": "/dɔːr/",
+    "category": "objects"
+  },
+  "desk": {
+    "vi": "Bàn học",
+    "en": "A piece of furniture with a flat or sloping surface",
+    "ipa": "/desk/",
+    "category": "objects"
+  },
+  "duck": {
+    "vi": "Con vịt",
+    "en": "A waterbird with a broad blunt bill",
+    "ipa": "/dʌk/",
+    "category": "animals"
+  },
+  "dart": {
+    "vi": "Phi tiêu",
+    "en": "A small pointed missile",
+    "ipa": "/dɑːt/",
+    "category": "objects"
+  },
+  "elephant": {
+    "vi": "Con voi",
+    "en": "A heavy plant-eating mammal with a prehensile trunk",
+    "ipa": "/ˈel.ɪ.fənt/",
+    "category": "animals"
+  },
+  "egg": {
+    "vi": "Quả trứng",
+    "en": "An oval or round object laid by a female bird",
+    "ipa": "/eɡ/",
+    "category": "objects"
+  },
+  "ear": {
+    "vi": "Cái tai",
+    "en": "The organ of hearing and balance in humans",
+    "ipa": "/ɪər/",
+    "category": "body"
+  },
+  "eye": {
+    "vi": "Con mắt",
+    "en": "Each of a pair of globular organs in the head",
+    "ipa": "/aɪ/",
+    "category": "body"
+  },
+  "eagle": {
+    "vi": "Đại bàng",
+    "en": "A large bird of prey with a massive hooked bill",
+    "ipa": "/ˈiː.ɡəl/",
+    "category": "animals"
+  },
+  "fish": {
+    "vi": "Con cá",
+    "en": "A limbless cold-blooded vertebrate animal",
+    "ipa": "/fɪʃ/",
+    "category": "animals"
+  },
+  "frog": {
+    "vi": "Con ếch",
+    "en": "A tailless amphibian with a short stout body",
+    "ipa": "/frɒɡ/",
+    "category": "animals"
+  },
+  "fire": {
+    "vi": "Lửa",
+    "en": "Combustion or burning",
+    "ipa": "/faɪər/",
+    "category": "nature"
+  },
+  "flower": {
+    "vi": "Bông hoa",
+    "en": "The seed-bearing part of a plant",
+    "ipa": "/ˈflaʊ.ər/",
+    "category": "plants"
+  },
+  "forest": {
+    "vi": "Khu rừng",
+    "en": "A large area covered chiefly with trees",
+    "ipa": "/ˈfɒr.ɪst/",
+    "category": "nature"
+  },
+  "goat": {
+    "vi": "Con dê",
+    "en": "A hardy domesticated ruminant animal",
+    "ipa": "/ɡəʊt/",
+    "category": "animals"
+  },
+  "game": {
+    "vi": "Trò chơi",
+    "en": "A form of play or sport",
+    "ipa": "/ɡeɪm/",
+    "category": "others"
+  },
+  "girl": {
+    "vi": "Cô gái",
+    "en": "A female child",
+    "ipa": "/ɡɜːl/",
+    "category": "others"
+  },
+  "gold": {
+    "vi": "Vàng",
+    "en": "A yellow precious metal",
+    "ipa": "/ɡəʊld/",
+    "category": "objects"
+  },
+  "gun": {
+    "vi": "Cây súng",
+    "en": "A weapon incorporating a metal tube",
+    "ipa": "/ɡʌn/",
+    "category": "objects"
+  },
+  "horse": {
+    "vi": "Con ngựa",
+    "en": "A solid-hoofed plant-eating domesticated mammal",
+    "ipa": "/hɔːs/",
+    "category": "animals"
+  },
+  "hat": {
+    "vi": "Cái mũ",
+    "en": "A shaped covering for the head",
+    "ipa": "/hæt/",
+    "category": "objects"
+  },
+  "house": {
+    "vi": "Ngôi nhà",
+    "en": "A building for human habitation",
+    "ipa": "/haʊs/",
+    "category": "places"
+  },
+  "hand": {
+    "vi": "Bàn tay",
+    "en": "The end part of a person's arm",
+    "ipa": "/hænd/",
+    "category": "body"
+  },
+  "heart": {
+    "vi": "Trái tim",
+    "en": "A hollow muscular organ",
+    "ipa": "/hɑːt/",
+    "category": "body"
+  },
+  "ice": {
+    "vi": "Nước đá",
+    "en": "Frozen water",
+    "ipa": "/aɪs/",
+    "category": "nature"
+  },
+  "island": {
+    "vi": "Hòn đảo",
+    "en": "A piece of land surrounded by water",
+    "ipa": "/ˈaɪ.lənd/",
+    "category": "places"
+  },
+  "iron": {
+    "vi": "Sắt",
+    "en": "A strong, hard magnetic silvery-gray metal",
+    "ipa": "/aɪən/",
+    "category": "objects"
+  },
+  "idea": {
+    "vi": "Ý tưởng",
+    "en": "A thought or suggestion as to a possible course of action",
+    "ipa": "/aɪˈdɪə/",
+    "category": "others"
+  },
+  "ink": {
+    "vi": "Mực in",
+    "en": "A colored fluid used for writing",
+    "ipa": "/ɪŋk/",
+    "category": "objects"
+  },
+  "juice": {
+    "vi": "Nước ép",
+    "en": "The liquid obtained from or present in fruit",
+    "ipa": "/dʒuːs/",
+    "category": "objects"
+  },
+  "jar": {
+    "vi": "Cái lọ",
+    "en": "A wide-mouthed cylindrical container",
+    "ipa": "/dʒɑːr/",
+    "category": "objects"
+  },
+  "jacket": {
+    "vi": "Áo khoác",
+    "en": "An outer garment extending either to the waist or the hips",
+    "ipa": "/ˈdʒæk.ɪt/",
+    "category": "objects"
+  },
+  "jump": {
+    "vi": "Nhảy",
+    "en": "Push oneself off a surface and into the air",
+    "ipa": "/dʒʌmp/",
+    "category": "others"
+  },
+  "jungle": {
+    "vi": "Rừng nhiệt đới",
+    "en": "An area of land overgrown with dense forest",
+    "ipa": "/ˈdʒʌŋ.ɡəl/",
+    "category": "nature"
+  },
+  "kite": {
+    "vi": "Con diều",
+    "en": "A toy consisting of a light frame with thin material",
+    "ipa": "/kaɪt/",
+    "category": "objects"
+  },
+  "key": {
+    "vi": "Chìa khóa",
+    "en": "A small piece of shaped metal",
+    "ipa": "/kiː/",
+    "category": "objects"
+  },
+  "king": {
+    "vi": "Vua",
+    "en": "The male ruler of an independent state",
+    "ipa": "/kɪŋ/",
+    "category": "others"
+  },
+  "knee": {
+    "vi": "Đầu gối",
+    "en": "The joint between the thigh and the lower leg",
+    "ipa": "/niː/",
+    "category": "body"
+  },
+  "knife": {
+    "vi": "Con dao",
+    "en": "An instrument composed of a blade fixed into a handle",
+    "ipa": "/naɪf/",
+    "category": "objects"
+  },
+  "lion": {
+    "vi": "Sư tử",
+    "en": "A large tawny-colored cat",
+    "ipa": "/ˈlaɪ.ən/",
+    "category": "animals"
+  },
+  "lake": {
+    "vi": "Cái hồ",
+    "en": "A large body of water surrounded by land",
+    "ipa": "/leɪk/",
+    "category": "places"
+  },
+  "lamp": {
+    "vi": "Cái đèn",
+    "en": "A device for giving light",
+    "ipa": "/læmp/",
+    "category": "objects"
+  },
+  "leaf": {
+    "vi": "Chiếc lá",
+    "en": "A flattened structure of a higher plant",
+    "ipa": "/liːf/",
+    "category": "plants"
+  },
+  "love": {
+    "vi": "Tình yêu",
+    "en": "An intense feeling of deep affection",
+    "ipa": "/lʌv/",
+    "category": "others"
+  },
+  "monkey": {
+    "vi": "Con khỉ",
+    "en": "A small to medium-sized primate",
+    "ipa": "/ˈmʌŋ.ki/",
+    "category": "animals"
+  },
+  "moon": {
+    "vi": "Mặt trăng",
+    "en": "The natural satellite of the earth",
+    "ipa": "/muːn/",
+    "category": "nature"
+  },
+  "mouse": {
+    "vi": "Con chuột",
+    "en": "A small rodent",
+    "ipa": "/maʊs/",
+    "category": "animals"
+  },
+  "money": {
+    "vi": "Tiền",
+    "en": "A current medium of exchange",
+    "ipa": "/ˈmʌn.i/",
+    "category": "objects"
+  },
+  "mountain": {
+    "vi": "Ngọn núi",
+    "en": "A large natural elevation of the earth's surface",
+    "ipa": "/ˈmaʊn.tɪn/",
+    "category": "places"
+  },
+  "nest": {
+    "vi": "Cái tổ",
+    "en": "A structure or place made or chosen by a bird",
+    "ipa": "/nest/",
+    "category": "objects"
+  },
+  "net": {
+    "vi": "Cái lưới",
+    "en": "A piece of open-meshed material",
+    "ipa": "/net/",
+    "category": "objects"
+  },
+  "night": {
+    "vi": "Ban đêm",
+    "en": "The period of darkness in each twenty-four hours",
+    "ipa": "/naɪt/",
+    "category": "others"
+  },
+  "nose": {
+    "vi": "Cái mũi",
+    "en": "The part projecting above the mouth",
+    "ipa": "/nəʊz/",
+    "category": "body"
+  },
+  "name": {
+    "vi": "Tên",
+    "en": "A word or set of words by which a person is known",
+    "ipa": "/neɪm/",
+    "category": "others"
+  },
+  "owl": {
+    "vi": "Cú mèo",
+    "en": "A nocturnal bird of prey",
+    "ipa": "/aʊl/",
+    "category": "animals"
+  },
+  "ocean": {
+    "vi": "Đại dương",
+    "en": "A very large expanse of sea",
+    "ipa": "/ˈəʊ.ʃən/",
+    "category": "places"
+  },
+  "oil": {
+    "vi": "Dầu ăn",
+    "en": "A viscous liquid derived from petroleum",
+    "ipa": "/ɔɪl/",
+    "category": "objects"
+  },
+  "orange": {
+    "vi": "Quả cam",
+    "en": "A round juicy citrus fruit",
+    "ipa": "/ˈɒr.ɪndʒ/",
+    "category": "plants"
+  },
+  "onion": {
+    "vi": "Củ hành",
+    "en": "An edible bulb with a pungent taste",
+    "ipa": "/ˈʌn.jən/",
+    "category": "plants"
+  },
+  "pig": {
+    "vi": "Con lợn",
+    "en": "An omnivorous domesticated hoofed mammal",
+    "ipa": "/pɪɡ/",
+    "category": "animals"
+  },
+  "pen": {
+    "vi": "Cái bút",
+    "en": "An instrument for writing or drawing with ink",
+    "ipa": "/pen/",
+    "category": "objects"
+  },
+  "paper": {
+    "vi": "Tờ giấy",
+    "en": "Material manufactured in thin sheets",
+    "ipa": "/ˈpeɪ.pər/",
+    "category": "objects"
+  },
+  "plant": {
+    "vi": "Cái cây",
+    "en": "A living organism of the kind exemplified by trees",
+    "ipa": "/plɑːnt/",
+    "category": "plants"
+  },
+  "power": {
+    "vi": "Sức mạnh",
+    "en": "The ability to do something or act in a particular way",
+    "ipa": "/ˈpaʊ.ər/",
+    "category": "others"
+  },
+  "queen": {
+    "vi": "Nữ hoàng",
+    "en": "The female ruler of an independent state",
+    "ipa": "/kwiːn/",
+    "category": "others"
+  },
+  "question": {
+    "vi": "Câu hỏi",
+    "en": "A sentence worded or expressed so as to elicit information",
+    "ipa": "/ˈkwes.tʃən/",
+    "category": "others"
+  },
+  "quiet": {
+    "vi": "Yên tĩnh",
+    "en": "Making little or no noise",
+    "ipa": "/ˈkwaɪ.ət/",
+    "category": "others"
+  },
+  "quick": {
+    "vi": "Nhanh chóng",
+    "en": "Moving fast or doing something in a short time",
+    "ipa": "/kwɪk/",
+    "category": "others"
+  },
+  "quiz": {
+    "vi": "Câu đố",
+    "en": "A test of knowledge, especially a brief informal test",
+    "ipa": "/kwɪz/",
+    "category": "others"
+  },
+  "rabbit": {
+    "vi": "Con thỏ",
+    "en": "A burrowing, gregarious, plant-eating mammal",
+    "ipa": "/ˈræb.ɪt/",
+    "category": "animals"
+  },
+  "rat": {
+    "vi": "Con chuột",
+    "en": "A rodent that resembles a large mouse",
+    "ipa": "/ræt/",
+    "category": "animals"
+  },
+  "river": {
+    "vi": "Dòng sông",
+    "en": "A large natural stream of water flowing in a channel",
+    "ipa": "/ˈrɪv.ər/",
+    "category": "places"
+  },
+  "rain": {
+    "vi": "Cơn mưa",
+    "en": "Moisture condensed from the atmosphere",
+    "ipa": "/reɪn/",
+    "category": "nature"
+  },
+  "red": {
+    "vi": "Màu đỏ",
+    "en": "Of a color at the end of the spectrum next to orange",
+    "ipa": "/red/",
+    "category": "others"
+  },
+  "snake": {
+    "vi": "Con rắn",
+    "en": "A long limbless reptile",
+    "ipa": "/sneɪk/",
+    "category": "animals"
+  },
+  "sun": {
+    "vi": "Mặt trời",
+    "en": "The star around which the earth orbits",
+    "ipa": "/sʌn/",
+    "category": "nature"
+  },
+  "star": {
+    "vi": "Ngôi sao",
+    "en": "A fixed luminous point in the night sky",
+    "ipa": "/stɑːr/",
+    "category": "nature"
+  },
+  "sea": {
+    "vi": "Biển cả",
+    "en": "The expanse of salt water that covers most of the earth",
+    "ipa": "/siː/",
+    "category": "places"
+  },
+  "sand": {
+    "vi": "Hạt cát",
+    "en": "A loose granular substance",
+    "ipa": "/sænd/",
+    "category": "nature"
+  },
+  "tiger": {
+    "vi": "Con hổ",
+    "en": "A very large solitary cat with a yellow-orange coat",
+    "ipa": "/ˈtaɪ.ɡər/",
+    "category": "animals"
+  },
+  "tree": {
+    "vi": "Cái cây",
+    "en": "A woody perennial plant",
+    "ipa": "/triː/",
+    "category": "plants"
+  },
+  "train": {
+    "vi": "Tàu hỏa",
+    "en": "A series of connected railway carriages or wagons",
+    "ipa": "/treɪn/",
+    "category": "vehicles"
+  },
+  "time": {
+    "vi": "Thời gian",
+    "en": "The indefinite continued progress of existence",
+    "ipa": "/taɪm/",
+    "category": "others"
+  },
+  "tea": {
+    "vi": "Trà",
+    "en": "A hot drink made by infusing the dried crushed leaves",
+    "ipa": "/tiː/",
+    "category": "objects"
+  },
+  "umbrella": {
+    "vi": "Cái ô",
+    "en": "A device consisting of a circular canopy of cloth on a folding metal frame",
+    "ipa": "/ʌmˈbrel.ə/",
+    "category": "objects"
+  },
+  "uncle": {
+    "vi": "Chú bác",
+    "en": "The brother of one's father or mother",
+    "ipa": "/ˈʌŋ.kəl/",
+    "category": "others"
+  },
+  "unit": {
+    "vi": "Đơn vị",
+    "en": "An individual thing or person regarded as single and complete",
+    "ipa": "/ˈjuː.nɪt/",
+    "category": "others"
+  },
+  "uniform": {
+    "vi": "Đồng phục",
+    "en": "The distinctive clothing worn by members of the same organization",
+    "ipa": "/ˈjuː.nɪ.fɔːm/",
+    "category": "objects"
+  },
+  "use": {
+    "vi": "Sử dụng",
+    "en": "Take, hold, or deploy as a means of accomplishing something",
+    "ipa": "/juːz/",
+    "category": "others"
+  },
+  "van": {
+    "vi": "Xe tải",
+    "en": "A medium-sized motor vehicle",
+    "ipa": "/væn/",
+    "category": "vehicles"
+  },
+  "vase": {
+    "vi": "Cái bình",
+    "en": "A decorative container without handles",
+    "ipa": "/vɑːz/",
+    "category": "objects"
+  },
+  "voice": {
+    "vi": "Giọng nói",
+    "en": "The sound produced in a person's larynx",
+    "ipa": "/vɔɪs/",
+    "category": "body"
+  },
+  "village": {
+    "vi": "Ngôi làng",
+    "en": "A group of houses and associated buildings",
+    "ipa": "/ˈvɪl.ɪdʒ/",
+    "category": "places"
+  },
+  "valley": {
+    "vi": "Thung lũng",
+    "en": "A low area of land between hills or mountains",
+    "ipa": "/ˈvæl.i/",
+    "category": "places"
+  },
+  "water": {
+    "vi": "Nước",
+    "en": "A colorless, transparent, odorless liquid",
+    "ipa": "/ˈwɔː.tər/",
+    "category": "nature"
+  },
+  "wood": {
+    "vi": "Gỗ",
+    "en": "The hard fibrous material that forms the main substance of the trunk",
+    "ipa": "/wʊd/",
+    "category": "plants"
+  },
+  "wind": {
+    "vi": "Cơn gió",
+    "en": "The perceptible natural movement of the air",
+    "ipa": "/wɪnd/",
+    "category": "nature"
+  },
+  "wolf": {
+    "vi": "Chó sói",
+    "en": "A wild carnivorous mammal of the dog family",
+    "ipa": "/wʊlf/",
+    "category": "animals"
+  },
+  "wall": {
+    "vi": "Bức tường",
+    "en": "A continuous vertical brick or stone structure",
+    "ipa": "/wɔːl/",
+    "category": "objects"
+  },
+  "xylophone": {
+    "vi": "Đàn mộc cầm",
+    "en": "A musical instrument played by striking a row of wooden bars",
+    "ipa": "/ˈzaɪ.lə.fəʊn/",
+    "category": "objects"
+  },
+  "xerox": {
+    "vi": "Máy photo",
+    "en": "A xerographic copying process",
+    "ipa": "/ˈzɪə.rɒks/",
+    "category": "objects"
+  },
+  "xray": {
+    "vi": "Tia X",
+    "en": "An electromagnetic wave of high energy and very short wavelength",
+    "ipa": "/ˈeks.reɪ/",
+    "category": "objects"
+  },
+  "yacht": {
+    "vi": "Du thuyền",
+    "en": "A medium-sized sailboat equipped for cruising or racing",
+    "ipa": "/jɒt/",
+    "category": "vehicles"
+  },
+  "yellow": {
+    "vi": "Màu vàng",
+    "en": "Of the color between green and orange in the spectrum",
+    "ipa": "/ˈjel.əʊ/",
+    "category": "others"
+  },
+  "yard": {
+    "vi": "Cái sân",
+    "en": "A piece of uncultivated ground adjoining a building",
+    "ipa": "/jɑːd/",
+    "category": "places"
+  },
+  "year": {
+    "vi": "Năm",
+    "en": "The time taken by the earth to make one revolution around the sun",
+    "ipa": "/jɪər/",
+    "category": "others"
+  },
+  "yoga": {
+    "vi": "Môn Yoga",
+    "en": "A Hindu spiritual and ascetic discipline",
+    "ipa": "/ˈjəʊ.ɡə/",
+    "category": "others"
+  },
+  "zebra": {
+    "vi": "Ngựa vằn",
+    "en": "An African wild horse with black-and-white stripes",
+    "ipa": "/ˈzeb.rə/",
+    "category": "animals"
+  },
+  "zoo": {
+    "vi": "Sở thú",
+    "en": "An establishment which maintains a collection of wild animals",
+    "ipa": "/zuː/",
+    "category": "places"
+  },
+  "zero": {
+    "vi": "Số không",
+    "en": "No quantity or number",
+    "ipa": "/ˈzɪə.rəʊ/",
+    "category": "others"
+  },
+  "zone": {
+    "vi": "Khu vực",
+    "en": "An area or stretch of land having a particular characteristic",
+    "ipa": "/zəʊn/",
+    "category": "places"
+  },
+  "zip": {
+    "vi": "Khóa kéo",
+    "en": "A device consisting of two flexible strips of metal or plastic",
+    "ipa": "/zɪp/"
+  },
+  "earth": {
+    "vi": "Trái đất",
+    "en": "The planet on which we live",
+    "ipa": "/ɜːθ/"
+  },
+  "east": {
+    "vi": "Hướng đông",
+    "en": "The direction toward the point of the horizon where the sun rises",
+    "ipa": "/iːst/"
+  },
+  "edge": {
+    "vi": "Cạnh, bờ",
+    "en": "The outside limit of an object, area, or surface",
+    "ipa": "/edʒ/"
+  },
+  "effect": {
+    "vi": "Hiệu ứng",
+    "en": "A change which is a result or consequence of an action",
+    "ipa": "/ɪˈfekt/"
+  },
+  "end": {
+    "vi": "Kết thúc",
+    "en": "A final part of something",
+    "ipa": "/end/"
+  },
+  "energy": {
+    "vi": "Năng lượng",
+    "en": "The strength and vitality required for sustained activity",
+    "ipa": "/ˈen.ə.dʒi/"
+  },
+  "engine": {
+    "vi": "Động cơ",
+    "en": "A machine with moving parts that converts power into motion",
+    "ipa": "/ˈen.dʒɪn/"
+  },
+  "event": {
+    "vi": "Sự kiện",
+    "en": "A thing that happens, especially one of importance",
+    "ipa": "/ɪˈvent/"
+  },
+  "table": {
+    "vi": "Cái bàn",
+    "en": "A piece of furniture with a flat top and one or more legs",
+    "ipa": "/ˈteɪ.bəl/"
+  },
+  "tail": {
+    "vi": "Cái đuôi",
+    "en": "The hindmost part of an animal",
+    "ipa": "/teɪl/"
+  },
+  "talk": {
+    "vi": "Nói chuyện",
+    "en": "Speak in order to give information or express ideas",
+    "ipa": "/tɔːk/"
+  },
+  "tank": {
+    "vi": "Xe tăng / Bể chứa",
+    "en": "A large receptacle or storage chamber",
+    "ipa": "/tæŋk/"
+  },
+  "tape": {
+    "vi": "Băng keo",
+    "en": "A narrow strip of material",
+    "ipa": "/teɪp/"
+  },
+  "task": {
+    "vi": "Nhiệm vụ",
+    "en": "A piece of work to be done or undertaken",
+    "ipa": "/tɑːsk/"
+  },
+  "taste": {
+    "vi": "Hương vị",
+    "en": "The sensation of flavor perceived in the mouth",
+    "ipa": "/teɪst/"
+  },
+  "tax": {
+    "vi": "Thuế",
+    "en": "A compulsory contribution to state revenue",
+    "ipa": "/tæks/"
+  },
+  "team": {
+    "vi": "Đội nhóm",
+    "en": "A group of players forming one side in a competitive game",
+    "ipa": "/tiːm/"
+  },
+  "tear": {
+    "vi": "Nước mắt",
+    "en": "A drop of clear salty liquid secreted from glands in a person's eye",
+    "ipa": "/tɪər/"
+  },
+  "tech": {
+    "vi": "Công nghệ",
+    "en": "Technology",
+    "ipa": "/tek/"
+  },
+  "teen": {
+    "vi": "Thiếu niên",
+    "en": "A person aged between 13 and 19 years",
+    "ipa": "/tiːn/"
+  },
+  "tent": {
+    "vi": "Cái lều",
+    "en": "A portable shelter made of cloth",
+    "ipa": "/tent/"
+  },
+  "term": {
+    "vi": "Thuật ngữ",
+    "en": "A word or phrase used to describe a thing",
+    "ipa": "/tɜːm/"
+  },
+  "test": {
+    "vi": "Bài kiểm tra",
+    "en": "A procedure intended to establish the quality or performance",
+    "ipa": "/test/"
+  },
+  "text": {
+    "vi": "Văn bản",
+    "en": "A book or other written or printed work",
+    "ipa": "/tekst/"
+  },
+  "theme": {
+    "vi": "Chủ đề",
+    "en": "The subject of a talk, a piece of writing",
+    "ipa": "/θiːm/"
+  },
+  "thing": {
+    "vi": "Đồ vật",
+    "en": "An object that one need not, cannot, or does not wish to give a specific name to",
+    "ipa": "/θɪŋ/"
+  },
+  "title": {
+    "vi": "Tiêu đề",
+    "en": "The name of a book, composition, or other artistic work",
+    "ipa": "/ˈtaɪ.təl/"
+  },
+  "tone": {
+    "vi": "Tông giọng",
+    "en": "A musical or vocal sound with reference to its pitch, quality, and strength",
+    "ipa": "/təʊn/"
+  },
+  "tool": {
+    "vi": "Công cụ",
+    "en": "A device or implement",
+    "ipa": "/tuːl/"
+  },
+  "tooth": {
+    "vi": "Răng",
+    "en": "Each of a set of hard, bony enamel-coated structures in the jaws of most vertebrates",
+    "ipa": "/tuːθ/"
+  },
+  "top": {
+    "vi": "Đỉnh",
+    "en": "The highest or uppermost point",
+    "ipa": "/tɒp/"
+  },
+  "topic": {
+    "vi": "Đề tài",
+    "en": "A matter dealt with in a text, discourse, or conversation",
+    "ipa": "/ˈtɒp.ɪk/"
+  },
+  "total": {
+    "vi": "Tổng cộng",
+    "en": "Comprising the whole number or amount",
+    "ipa": "/ˈtəʊ.təl/"
+  },
+  "tour": {
+    "vi": "Chuyến du lịch",
+    "en": "A journey for pleasure in which several different places are visited",
+    "ipa": "/tʊər/"
+  },
+  "town": {
+    "vi": "Thị trấn",
+    "en": "An urban area that has a name, defined boundaries, and local government",
+    "ipa": "/taʊn/"
+  },
+  "track": {
+    "vi": "Đường đua",
+    "en": "A rough path or minor road",
+    "ipa": "/træk/"
+  },
+  "trade": {
+    "vi": "Thương mại",
+    "en": "The action of buying and selling goods and services",
+    "ipa": "/treɪd/"
+  },
+  "trip": {
+    "vi": "Chuyến đi",
+    "en": "A journey or excursion, especially for pleasure",
+    "ipa": "/trɪp/"
+  },
+  "trouble": {
+    "vi": "Rắc rối",
+    "en": "Difficulty or problems",
+    "ipa": "/ˈtrʌb.əl/"
+  },
+  "trust": {
+    "vi": "Niềm tin",
+    "en": "Firm belief in the reliability, truth, ability, or strength of someone or something",
+    "ipa": "/trʌst/"
+  },
+  "truth": {
+    "vi": "Sự thật",
+    "en": "The quality or state of being true",
+    "ipa": "/truːθ/"
+  },
+  "tube": {
+    "vi": "Ống",
+    "en": "A long, hollow cylinder of metal, plastic, glass",
+    "ipa": "/tjuːb/"
+  },
+  "tune": {
+    "vi": "Giai điệu",
+    "en": "A melody, especially one that characterizes a certain piece of music",
+    "ipa": "/tjuːn/"
+  },
+  "turn": {
+    "vi": "Lượt",
+    "en": "An act of moving something in a circular direction around an axis or point",
+    "ipa": "/tɜːn/"
+  },
+  "type": {
+    "vi": "Loại",
+    "en": "A category of people or things having common characteristics",
+    "ipa": "/taɪp/"
+  },
+  "nation": {
+    "vi": "Quốc gia",
+    "en": "A large body of people united by common descent, history, culture",
+    "ipa": "/ˈneɪ.tʃən/"
+  },
+  "nature": {
+    "vi": "Thiên nhiên",
+    "en": "The phenomena of the physical world collectively",
+    "ipa": "/ˈneɪ.tʃər/"
+  },
+  "neck": {
+    "vi": "Cái cổ",
+    "en": "The part of a person's or animal's body connecting the head to the rest of the body",
+    "ipa": "/nek/"
+  },
+  "need": {
+    "vi": "Nhu cầu",
+    "en": "Circumstances in which something is necessary",
+    "ipa": "/niːd/"
+  },
+  "nerve": {
+    "vi": "Dây thần kinh",
+    "en": "A whitish fiber or bundle of fibers that transmits impulses",
+    "ipa": "/nɜːv/"
+  },
+  "news": {
+    "vi": "Tin tức",
+    "en": "Newly received or noteworthy information",
+    "ipa": "/njuːz/"
+  },
+  "noise": {
+    "vi": "Tiếng ồn",
+    "en": "A sound, especially one that is loud or unpleasant",
+    "ipa": "/nɔɪz/"
+  },
+  "north": {
+    "vi": "Hướng bắc",
+    "en": "The direction in which a compass needle normally points",
+    "ipa": "/nɔːθ/"
+  },
+  "note": {
+    "vi": "Ghi chú",
+    "en": "A brief record of facts, topics, or thoughts",
+    "ipa": "/nəʊt/"
+  },
+  "number": {
+    "vi": "Con số",
+    "en": "An arithmetical value",
+    "ipa": "/ˈnʌm.bər/"
+  },
+  "nurse": {
+    "vi": "Y tá",
+    "en": "A person trained to care for the sick or infirm",
+    "ipa": "/nɜːs/"
+  },
+  "dance": {
+    "vi": "Nhảy múa",
+    "en": "Move rhythmically to music",
+    "ipa": "/dɑːns/"
+  },
+  "dark": {
+    "vi": "Bóng tối",
+    "en": "With little or no light",
+    "ipa": "/dɑːk/"
+  },
+  "data": {
+    "vi": "Dữ liệu",
+    "en": "Facts and statistics collected together for reference or analysis",
+    "ipa": "/ˈdeɪ.tə/"
+  },
+  "date": {
+    "vi": "Ngày tháng",
+    "en": "The day of the month or year as specified by a number",
+    "ipa": "/deɪt/"
+  },
+  "day": {
+    "vi": "Ngày",
+    "en": "A period of twenty-four hours",
+    "ipa": "/deɪ/"
+  },
+  "dead": {
+    "vi": "Đã chết",
+    "en": "No longer alive",
+    "ipa": "/ded/"
+  },
+  "deal": {
+    "vi": "Thỏa thuận",
+    "en": "An agreement entered into by two or more parties",
+    "ipa": "/diːl/"
+  },
+  "death": {
+    "vi": "Cái chết",
+    "en": "The action or fact of dying or being killed",
+    "ipa": "/deθ/"
+  },
+  "diet": {
+    "vi": "Chế độ ăn",
+    "en": "The kinds of food that a person, animal, or community habitually eats",
+    "ipa": "/ˈdaɪ.ət/"
+  },
+  "dinner": {
+    "vi": "Bữa tối",
+    "en": "The main meal of the day",
+    "ipa": "/ˈdɪn.ər/"
+  },
+  "dirt": {
+    "vi": "Bụi bẩn",
+    "en": "A substance, such as mud or dust, that soils someone or something",
+    "ipa": "/dɜːt/"
+  },
+  "disk": {
+    "vi": "Đĩa CD",
+    "en": "A flat, thin, round object",
+    "ipa": "/dɪsk/"
+  },
+  "draw": {
+    "vi": "Vẽ",
+    "en": "Produce a picture or diagram by making lines and marks",
+    "ipa": "/drɔː/"
+  },
+  "drug": {
+    "vi": "Thuốc",
+    "en": "A medicine or other substance which has a physiological effect",
+    "ipa": "/drʌɡ/"
+  },
+  "dust": {
+    "vi": "Bụi",
+    "en": "Fine, dry powder consisting of tiny particles",
+    "ipa": "/dʌst/"
+  },
+  "duty": {
+    "vi": "Nhiệm vụ",
+    "en": "A moral or legal obligation",
+    "ipa": "/ˈdjuː.ti/"
+  },
+  "race": {
+    "vi": "Cuộc đua",
+    "en": "A competition between runners, horses, vehicles",
+    "ipa": "/reɪs/"
+  },
+  "radio": {
+    "vi": "Đài phát thanh",
+    "en": "The transmission and reception of electromagnetic waves",
+    "ipa": "/ˈreɪ.di.əʊ/"
+  },
+  "rate": {
+    "vi": "Tỷ lệ",
+    "en": "A measure, quantity, or frequency",
+    "ipa": "/reɪt/"
+  },
+  "ratio": {
+    "vi": "Tỷ số",
+    "en": "The quantitative relation between two amounts",
+    "ipa": "/ˈreɪ.ʃi.əʊ/"
+  },
+  "read": {
+    "vi": "Đọc",
+    "en": "Look at and comprehend the meaning of written or printed matter",
+    "ipa": "/riːd/"
+  },
+  "reality": {
+    "vi": "Thực tế",
+    "en": "The world or the state of things as they actually exist",
+    "ipa": "/riˈæl.ə.ti/"
+  },
+  "reason": {
+    "vi": "Lý do",
+    "en": "A cause, explanation, or justification for an action or event",
+    "ipa": "/ˈriː.zən/"
+  },
+  "record": {
+    "vi": "Bản ghi âm",
+    "en": "A thing constituting a piece of evidence about the past",
+    "ipa": "/ˈrek.ɔːd/"
+  },
+  "rent": {
+    "vi": "Thuê",
+    "en": "A tenant's regular payment to a landlord",
+    "ipa": "/rent/"
+  },
+  "reply": {
+    "vi": "Trả lời",
+    "en": "Say something in response to something someone has said",
+    "ipa": "/rɪˈplaɪ/"
+  },
+  "report": {
+    "vi": "Báo cáo",
+    "en": "Give a spoken or written account of something",
+    "ipa": "/rɪˈpɔːt/"
+  },
+  "rest": {
+    "vi": "Nghỉ ngơi",
+    "en": "Cease work or movement in order to relax",
+    "ipa": "/rest/"
+  },
+  "result": {
+    "vi": "Kết quả",
+    "en": "A consequence, effect, or outcome of something",
+    "ipa": "/rɪˈzʌlt/"
+  },
+  "rice": {
+    "vi": "Cơm gạo",
+    "en": "A swamp grass which is widely cultivated as a source of food",
+    "ipa": "/raɪs/"
+  },
+  "ride": {
+    "vi": "Cưỡi",
+    "en": "Sit on and control the movement of",
+    "ipa": "/raɪd/"
+  },
+  "ring": {
+    "vi": "Chiếc nhẫn",
+    "en": "A small circular band, typically of precious metal",
+    "ipa": "/rɪŋ/"
+  },
+  "risk": {
+    "vi": "Rủi ro",
+    "en": "A situation involving exposure to danger",
+    "ipa": "/rɪsk/"
+  },
+  "road": {
+    "vi": "Con đường",
+    "en": "A wide way leading from one place to another",
+    "ipa": "/rəʊd/"
+  },
+  "rock": {
+    "vi": "Tảng đá",
+    "en": "The solid mineral material forming part of the surface of the earth",
+    "ipa": "/rɒk/"
+  },
+  "role": {
+    "vi": "Vai trò",
+    "en": "An actor's part in a play, movie, etc.",
+    "ipa": "/rəʊl/"
+  },
+  "roll": {
+    "vi": "Cuộn",
+    "en": "Move or cause to move in a particular direction by turning over and over",
+    "ipa": "/rəʊl/"
+  },
+  "roof": {
+    "vi": "Mái nhà",
+    "en": "The structure forming the upper covering of a building",
+    "ipa": "/ruːf/"
+  },
+  "room": {
+    "vi": "Căn phòng",
+    "en": "Space that can be occupied",
+    "ipa": "/ruːm/"
+  },
+  "root": {
+    "vi": "Rễ cây",
+    "en": "The part of a plant which attaches it to the ground",
+    "ipa": "/ruːt/"
+  },
+  "rope": {
+    "vi": "Sợi dây",
+    "en": "A length of strong cord made by twisting together strands",
+    "ipa": "/rəʊp/"
+  },
+  "rose": {
+    "vi": "Hoa hồng",
+    "en": "A prickly bush or shrub that typically bears red, pink, yellow, or white fragrant flowers",
+    "ipa": "/rəʊz/"
+  },
+  "rule": {
+    "vi": "Quy tắc",
+    "en": "One of a set of explicit or understood regulations or principles",
+    "ipa": "/ruːl/"
+  },
+  "rush": {
+    "vi": "Vội vã",
+    "en": "Move with urgent haste",
+    "ipa": "/rʌʃ/"
+  },
+  "accident": {
+    "vi": "Tai nạn",
+    "en": "An unfortunate incident that happens unexpectedly",
+    "ipa": "/ˈæk.sɪ.dənt/"
+  },
+  "action": {
+    "vi": "Hành động",
+    "en": "The fact or process of doing something",
+    "ipa": "/ˈæk.ʃən/"
+  },
+  "actor": {
+    "vi": "Diễn viên",
+    "en": "A person whose profession is acting on the stage, in movies, or on television",
+    "ipa": "/ˈæk.tər/"
+  },
+  "advice": {
+    "vi": "Lời khuyên",
+    "en": "Guidance or recommendations concerning prudent future action",
+    "ipa": "/ədˈvaɪs/"
+  },
+  "airport": {
+    "vi": "Sân bay",
+    "en": "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft",
+    "ipa": "/ˈeə.pɔːt/"
+  },
+  "alarm": {
+    "vi": "Báo động",
+    "en": "An anxious awareness of danger",
+    "ipa": "/əˈlɑːm/"
+  },
+  "album": {
+    "vi": "Quyển album",
+    "en": "A blank book for the insertion of photographs, stamps, or pictures",
+    "ipa": "/ˈæl.bəm/"
+  },
+  "alcohol": {
+    "vi": "Cồn, rượu",
+    "en": "A colorless volatile flammable liquid",
+    "ipa": "/ˈæl.kə.hɒl/"
+  },
+  "alien": {
+    "vi": "Người ngoài hành tinh",
+    "en": "Belonging to a foreign country or nation",
+    "ipa": "/ˈeɪ.li.ən/"
+  },
+  "amount": {
+    "vi": "Số lượng",
+    "en": "A quantity of something",
+    "ipa": "/əˈmaʊnt/"
+  },
+  "angel": {
+    "vi": "Thiên thần",
+    "en": "A spiritual being believed to act as an attendant, agent, or messenger of God",
+    "ipa": "/ˈeɪn.dʒəl/"
+  },
+  "anger": {
+    "vi": "Sự tức giận",
+    "en": "A strong feeling of annoyance, displeasure, or hostility",
+    "ipa": "/ˈæŋ.ɡər/"
+  },
+  "angle": {
+    "vi": "Góc độ",
+    "en": "The space (usually measured in degrees) between two intersecting lines or surfaces",
+    "ipa": "/ˈæŋ.ɡəl/"
+  },
+  "answer": {
+    "vi": "Câu trả lời",
+    "en": "A thing said, written, or done to deal with or as a reaction to a question",
+    "ipa": "/ˈɑːn.sər/"
+  },
+  "area": {
+    "vi": "Khu vực",
+    "en": "A region or part of a town, a country, or the world",
+    "ipa": "/ˈeə.ri.ə/"
+  },
+  "army": {
+    "vi": "Quân đội",
+    "en": "An organized military force equipped for fighting on land",
+    "ipa": "/ˈɑː.mi/"
+  },
+  "author": {
+    "vi": "Tác giả",
+    "en": "A writer of a book, article, or report",
+    "ipa": "/ˈɔː.θər/"
+  },
+  "award": {
+    "vi": "Giải thưởng",
+    "en": "A prize or other mark of recognition given in honor of an achievement",
+    "ipa": "/əˈwɔːd/"
+  },
+  "baby": {
+    "vi": "Em bé",
+    "en": "A very young child, especially one newly or recently born",
+    "ipa": "/ˈbeɪ.bi/"
+  },
+  "back": {
+    "vi": "Lưng",
+    "en": "The rear surface of the human body from the shoulders to the hips",
+    "ipa": "/bæk/"
+  },
+  "bag": {
+    "vi": "Cái túi",
+    "en": "A container made of flexible material with an opening at the top",
+    "ipa": "/bæɡ/"
+  },
+  "balance": {
+    "vi": "Sự cân bằng",
+    "en": "An even distribution of weight enabling someone or something to remain upright and steady",
+    "ipa": "/ˈbæl.əns/"
+  },
+  "band": {
+    "vi": "Ban nhạc",
+    "en": "A small group of musicians and vocalists who play pop, jazz, or rock music",
+    "ipa": "/bænd/"
+  },
+  "bank": {
+    "vi": "Ngân hàng",
+    "en": "A financial establishment that invests money deposited by customers",
+    "ipa": "/bæŋk/"
+  },
+  "base": {
+    "vi": "Căn cứ, đáy",
+    "en": "The lowest part or edge of something, especially the part on which it rests",
+    "ipa": "/beɪs/"
+  },
+  "basket": {
+    "vi": "Cái rổ",
+    "en": "A container used to hold or carry things",
+    "ipa": "/ˈbɑː.skɪt/"
+  },
+  "bath": {
+    "vi": "Bồn tắm",
+    "en": "A large container for water, used for immersing and washing the body",
+    "ipa": "/bɑːθ/"
+  },
+  "battle": {
+    "vi": "Trận chiến",
+    "en": "A sustained fight between large, organized armed forces",
+    "ipa": "/ˈbæt.əl/"
+  },
+  "beach": {
+    "vi": "Bãi biển",
+    "en": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks",
+    "ipa": "/biːtʃ/"
+  },
+  "beauty": {
+    "vi": "Sắc đẹp",
+    "en": "A combination of qualities that pleases the intellect or moral sense",
+    "ipa": "/ˈbjuː.ti/"
+  },
+  "bed": {
+    "vi": "Cái giường",
+    "en": "A piece of furniture for sleep or rest",
+    "ipa": "/bed/"
+  },
+  "beer": {
+    "vi": "Bia",
+    "en": "An alcoholic drink made from yeast-fermented malt flavored with hops",
+    "ipa": "/bɪər/"
+  },
+  "bell": {
+    "vi": "Cái chuông",
+    "en": "A hollow object, typically made of metal and having the shape of a deep inverted cup",
+    "ipa": "/bel/"
+  },
+  "belt": {
+    "vi": "Thắt lưng",
+    "en": "A strip of leather or other material worn around the waist",
+    "ipa": "/belt/"
+  },
+  "bike": {
+    "vi": "Xe đạp",
+    "en": "A bicycle or motorcycle",
+    "ipa": "/baɪk/"
+  },
+  "blood": {
+    "vi": "Máu",
+    "en": "The red liquid that circulates in the arteries and veins of humans and other vertebrate animals",
+    "ipa": "/blʌd/"
+  },
+  "blow": {
+    "vi": "Thổi",
+    "en": "Make a current of air",
+    "ipa": "/bləʊ/"
+  },
+  "board": {
+    "vi": "Cái bảng",
+    "en": "A long, thin, flat piece of wood or other hard material",
+    "ipa": "/bɔːd/"
+  },
+  "boat": {
+    "vi": "Cái thuyền",
+    "en": "A small vessel for travelling over water",
+    "ipa": "/bəʊt/"
+  },
+  "body": {
+    "vi": "Cơ thể",
+    "en": "The physical structure of a person or an animal",
+    "ipa": "/ˈbɒd.i/"
+  },
+  "bomb": {
+    "vi": "Quả bom",
+    "en": "A container filled with explosive, incendiary material",
+    "ipa": "/bɒm/"
+  },
+  "bone": {
+    "vi": "Khúc xương",
+    "en": "Any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates",
+    "ipa": "/bəʊn/"
+  },
+  "book": {
+    "vi": "Quyển sách",
+    "en": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers",
+    "ipa": "/bʊk/"
+  },
+  "boss": {
+    "vi": "Ông chủ",
+    "en": "A person in charge of a worker or organization",
+    "ipa": "/bɒs/"
+  },
+  "bottle": {
+    "vi": "Cái chai",
+    "en": "A glass or plastic container with a narrow neck",
+    "ipa": "/ˈbɒt.əl/"
+  },
+  "bowl": {
+    "vi": "Cái bát",
+    "en": "A round, deep dish or basin used for food or liquid",
+    "ipa": "/bəʊl/"
+  },
+  "brain": {
+    "vi": "Bộ não",
+    "en": "An organ of soft nervous tissue contained in the skull of vertebrates",
+    "ipa": "/breɪn/"
+  },
+  "branch": {
+    "vi": "Nhánh cây",
+    "en": "A part of a tree which grows out from the trunk or from a bough",
+    "ipa": "/brɑːntʃ/"
+  },
+  "bread": {
+    "vi": "Bánh mì",
+    "en": "Food made of flour, water, and yeast or another leavening agent",
+    "ipa": "/bred/"
+  },
+  "bridge": {
+    "vi": "Cây cầu",
+    "en": "A structure carrying a road, path, railroad, or canal across a river, ravine, or other obstacle",
+    "ipa": "/brɪdʒ/"
+  },
+  "brush": {
+    "vi": "Bàn chải",
+    "en": "An implement with a handle, consisting of bristles, hair, or wire",
+    "ipa": "/brʌʃ/"
+  },
+  "build": {
+    "vi": "Xây dựng",
+    "en": "Construct by putting parts or material together over a period of time",
+    "ipa": "/bɪld/"
+  },
+  "bus": {
+    "vi": "Xe buýt",
+    "en": "A large motor vehicle carrying passengers by road",
+    "ipa": "/bʌs/"
+  },
+  "business": {
+    "vi": "Doanh nghiệp",
+    "en": "A person's regular occupation, profession, or trade",
+    "ipa": "/ˈbɪz.nɪs/"
+  },
+  "butter": {
+    "vi": "Bơ",
+    "en": "A pale yellow edible fatty substance made by churning cream",
+    "ipa": "/ˈbʌt.ər/"
+  },
+  "button": {
+    "vi": "Cái nút",
+    "en": "A small disk or knob sewn on to a garment",
+    "ipa": "/ˈbʌt.ən/"
+  },
+  "camp": {
+    "vi": "Trại",
+    "en": "A place with temporary accommodations of huts, tents, or other structures",
+    "ipa": "/kæmp/"
+  },
+  "capital": {
+    "vi": "Thủ đô",
+    "en": "The most important city or town of a country or region",
+    "ipa": "/ˈkæp.ɪ.təl/"
+  },
+  "card": {
+    "vi": "Thẻ",
+    "en": "A piece of thick, stiff paper or thin pasteboard",
+    "ipa": "/kɑːd/"
+  },
+  "care": {
+    "vi": "Sự quan tâm",
+    "en": "The provision of what is necessary for the health, welfare, maintenance, and protection of someone or something",
+    "ipa": "/keər/"
+  },
+  "case": {
+    "vi": "Trường hợp",
+    "en": "An instance of a particular situation",
+    "ipa": "/keɪs/"
+  },
+  "cash": {
+    "vi": "Tiền mặt",
+    "en": "Money in coins or notes",
+    "ipa": "/kæʃ/"
+  },
+  "castle": {
+    "vi": "Lâu đài",
+    "en": "A large building or group of buildings fortified against attack with thick walls, battlements, towers",
+    "ipa": "/ˈkɑː.səl/"
+  },
+  "cause": {
+    "vi": "Nguyên nhân",
+    "en": "A person or thing that gives rise to an action, phenomenon, or condition",
+    "ipa": "/kɔːz/"
+  },
+  "cell": {
+    "vi": "Tế bào",
+    "en": "The smallest structural and functional unit of an organism",
+    "ipa": "/sel/"
+  },
+  "center": {
+    "vi": "Trung tâm",
+    "en": "The middle point of a circle or sphere, equidistant from every point on the circumference or surface",
+    "ipa": "/ˈsen.tər/"
+  },
+  "chain": {
+    "vi": "Sợi xích",
+    "en": "A series of linked metal rings used for fastening or securing something",
+    "ipa": "/tʃeɪn/"
+  },
+  "chair": {
+    "vi": "Cái ghế",
+    "en": "A separate seat for one person, typically with a back and four legs",
+    "ipa": "/tʃeər/"
+  },
+  "chance": {
+    "vi": "Cơ hội",
+    "en": "A possibility of something happening",
+    "ipa": "/tʃɑːns/"
+  },
+  "change": {
+    "vi": "Sự thay đổi",
+    "en": "Make or become different",
+    "ipa": "/tʃeɪndʒ/"
+  },
+  "character": {
+    "vi": "Nhân vật",
+    "en": "The mental and moral qualities distinctive to an individual",
+    "ipa": "/ˈkær.ək.tər/"
+  },
+  "charge": {
+    "vi": "Sạc điện",
+    "en": "Store electrical energy in (a battery or battery-operated device)",
+    "ipa": "/tʃɑːdʒ/"
+  },
+  "chart": {
+    "vi": "Biểu đồ",
+    "en": "A sheet of information in the form of a table, graph, or diagram",
+    "ipa": "/tʃɑːt/"
+  },
+  "check": {
+    "vi": "Kiểm tra",
+    "en": "Examine (something) in order to determine its accuracy, quality, or condition",
+    "ipa": "/tʃek/"
+  },
+  "child": {
+    "vi": "Đứa trẻ",
+    "en": "A young human being below the age of puberty or below the legal age of majority",
+    "ipa": "/tʃaɪld/"
+  },
+  "choice": {
+    "vi": "Sự lựa chọn",
+    "en": "An act of selecting or making a decision when faced with two or more possibilities",
+    "ipa": "/tʃɔɪs/"
+  },
+  "church": {
+    "vi": "Nhà thờ",
+    "en": "A building used for public Christian worship",
+    "ipa": "/tʃɜːtʃ/"
+  },
+  "circle": {
+    "vi": "Vòng tròn",
+    "en": "A round plane figure whose boundary consists of points equidistant from a fixed point",
+    "ipa": "/ˈsɜː.kəl/"
+  },
+  "claim": {
+    "vi": "Lời yêu cầu",
+    "en": "State or assert that something is the case",
+    "ipa": "/kleɪm/"
+  },
+  "class": {
+    "vi": "Lớp học",
+    "en": "A set or category of things having some property or attribute in common",
+    "ipa": "/klɑːs/"
+  },
+  "clean": {
+    "vi": "Sạch sẽ",
+    "en": "Free from dirt, marks, or stains",
+    "ipa": "/kliːn/"
+  },
+  "clear": {
+    "vi": "Rõ ràng",
+    "en": "Easy to perceive, understand, or interpret",
+    "ipa": "/klɪər/"
+  },
+  "clock": {
+    "vi": "Đồng hồ",
+    "en": "A mechanical or electrical device for measuring time, indicating hours, minutes, and sometimes seconds",
+    "ipa": "/klɒk/"
+  },
+  "close": {
+    "vi": "Đóng",
+    "en": "Move or cause to move so as to cover an opening",
+    "ipa": "/kləʊz/"
+  },
+  "cloud": {
+    "vi": "Đám mây",
+    "en": "A visible mass of condensed water vapor floating in the atmosphere",
+    "ipa": "/klaʊd/"
+  },
+  "club": {
+    "vi": "Câu lạc bộ",
+    "en": "An association or organization dedicated to a particular interest or activity",
+    "ipa": "/klʌb/"
+  },
+  "coach": {
+    "vi": "Huấn luyện viên",
+    "en": "A person who trains and directs an athlete or a sports team",
+    "ipa": "/kəʊtʃ/"
+  },
+  "coal": {
+    "vi": "Than đá",
+    "en": "A combustible black or dark brown rock consisting mainly of carbonized plant matter",
+    "ipa": "/kəʊl/"
+  },
+  "coast": {
+    "vi": "Bờ biển",
+    "en": "The part of the land near the sea; the edge of the land",
+    "ipa": "/kəʊst/"
+  },
+  "coat": {
+    "vi": "Áo khoác",
+    "en": "An outer garment worn outdoors, having sleeves and typically extending below the hips",
+    "ipa": "/kəʊt/"
+  },
+  "code": {
+    "vi": "Mã số",
+    "en": "A system of words, letters, figures, or other symbols substituted for other words",
+    "ipa": "/kəʊd/"
+  },
+  "coffee": {
+    "vi": "Cà phê",
+    "en": "A hot drink made from the roasted and ground seeds of a tropical shrub",
+    "ipa": "/ˈkɒf.i/"
+  },
+  "cold": {
+    "vi": "Lạnh",
+    "en": "Of or at a low or relatively low temperature",
+    "ipa": "/kəʊld/"
+  },
+  "color": {
+    "vi": "Màu sắc",
+    "en": "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light",
+    "ipa": "/ˈkʌl.ər/"
+  },
+  "company": {
+    "vi": "Công ty",
+    "en": "A commercial business",
+    "ipa": "/ˈkʌm.pə.ni/"
+  },
+  "control": {
+    "vi": "Sự điều khiển",
+    "en": "The power to influence or direct people's behavior or the course of events",
+    "ipa": "/kənˈtrəʊl/"
+  },
+  "cook": {
+    "vi": "Nấu ăn",
+    "en": "Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways",
+    "ipa": "/kʊk/"
+  },
+  "cool": {
+    "vi": "Mát mẻ",
+    "en": "Of or at a fairly low temperature",
+    "ipa": "/kuːl/"
+  },
+  "copy": {
+    "vi": "Bản sao",
+    "en": "A thing made to be similar or identical to another",
+    "ipa": "/ˈkɒp.i/"
+  },
+  "corn": {
+    "vi": "Bắp ngô",
+    "en": "A North American cereal plant that yields large grains, or kernels, set in rows on a cob",
+    "ipa": "/kɔːn/"
+  },
+  "corner": {
+    "vi": "Góc",
+    "en": "A place or angle where two or more sides or edges meet",
+    "ipa": "/ˈkɔː.nər/"
+  },
+  "cost": {
+    "vi": "Chi phí",
+    "en": "Require the payment of (a specified sum of money) before it can be acquired or done",
+    "ipa": "/kɒst/"
+  },
+  "cotton": {
+    "vi": "Bông",
+    "en": "A soft white fibrous substance that surrounds the seeds of a tropical and subtropical plant",
+    "ipa": "/ˈkɒt.ən/"
+  },
+  "cough": {
+    "vi": "Ho",
+    "en": "Expel air from the lungs with a sudden sharp sound",
+    "ipa": "/kɒf/"
+  },
+  "country": {
+    "vi": "Đất nước",
+    "en": "A nation with its own government, occupying a particular territory",
+    "ipa": "/ˈkʌn.tri/"
+  },
+  "course": {
+    "vi": "Khóa học",
+    "en": "The route or direction followed by a ship, aircraft, road, or river",
+    "ipa": "/kɔːs/"
+  },
+  "cover": {
+    "vi": "Vỏ bọc",
+    "en": "Put something such as a cloth or lid on top of or in front of (something)",
+    "ipa": "/ˈkʌv.ər/"
+  },
+  "crash": {
+    "vi": "Sự cố đâm",
+    "en": "Collide violently with an obstacle or another vehicle",
+    "ipa": "/kræʃ/"
+  },
+  "cream": {
+    "vi": "Kem",
+    "en": "The thick white or pale yellow fatty liquid which rises to the top when milk is left to stand",
+    "ipa": "/kriːm/"
+  },
+  "crime": {
+    "vi": "Tội phạm",
+    "en": "An action or omission that constitutes an offense that may be prosecuted by the state and is punishable by law",
+    "ipa": "/kraɪm/"
+  },
+  "cross": {
+    "vi": "Cây thánh giá",
+    "en": "A mark, object, or figure formed by two short intersecting lines or pieces",
+    "ipa": "/krɒs/"
+  },
+  "crowd": {
+    "vi": "Đám đông",
+    "en": "A large number of people gathered together in a disorganized or unruly way",
+    "ipa": "/kraʊd/"
+  },
+  "crown": {
+    "vi": "Vương miện",
+    "en": "A circular ornamental headdress worn by a monarch as a symbol of authority",
+    "ipa": "/kraʊn/"
+  },
+  "cry": {
+    "vi": "Khóc",
+    "en": "Shed tears, typically as an expression of distress, pain, or sorrow",
+    "ipa": "/kraɪ/"
+  },
+  "culture": {
+    "vi": "Văn hóa",
+    "en": "The arts and other manifestations of human intellectual achievement regarded collectively",
+    "ipa": "/ˈkʌl.tʃər/"
+  },
+  "cure": {
+    "vi": "Chữa bệnh",
+    "en": "Relieve (a person or animal) of the symptoms of a disease or condition",
+    "ipa": "/kjʊər/"
+  },
+  "curve": {
+    "vi": "Đường cong",
+    "en": "A line or outline which gradually deviates from being straight for some or all of its length",
+    "ipa": "/kɜːv/"
+  },
+  "damage": {
+    "vi": "Sự hư hại",
+    "en": "Physical harm caused to something in such a way as to impair its value, usefulness, or normal function",
+    "ipa": "/ˈdæm.ɪdʒ/"
+  },
+  "danger": {
+    "vi": "Mối nguy hiểm",
+    "en": "The possibility of suffering harm or injury",
+    "ipa": "/ˈdeɪn.dʒər/"
+  },
+  "degree": {
+    "vi": "Mức độ",
+    "en": "The amount, level, or extent to which something happens or is present",
+    "ipa": "/dɪˈɡriː/"
+  },
+  "design": {
+    "vi": "Thiết kế",
+    "en": "A plan or drawing produced to show the look and function or workings of a building",
+    "ipa": "/dɪˈzaɪn/"
+  },
+  "detail": {
+    "vi": "Chi tiết",
+    "en": "An individual feature, fact, or item",
+    "ipa": "/ˈdiː.teɪl/"
+  },
+  "device": {
+    "vi": "Thiết bị",
+    "en": "A thing made or adapted for a particular purpose",
+    "ipa": "/dɪˈvaɪs/"
+  },
+  "diamond": {
+    "vi": "Kim cương",
+    "en": "A precious stone consisting of a clear and typically colorless crystalline form of pure carbon",
+    "ipa": "/ˈdaɪə.mənd/"
+  },
+  "disease": {
+    "vi": "Căn bệnh",
+    "en": "A disorder of structure or function in a human, animal, or plant",
+    "ipa": "/dɪˈziːz/"
+  },
+  "distance": {
+    "vi": "Khoảng cách",
+    "en": "An amount of space between two things or people",
+    "ipa": "/ˈdɪs.təns/"
+  },
+  "doctor": {
+    "vi": "Bác sĩ",
+    "en": "A qualified practitioner of medicine; a physician",
+    "ipa": "/ˈdɒk.tər/"
+  },
+  "dream": {
+    "vi": "Giấc mơ",
+    "en": "A series of thoughts, images, and sensations occurring in a person's mind during sleep",
+    "ipa": "/driːm/"
+  },
+  "dress": {
+    "vi": "Cái váy",
+    "en": "A one-piece garment for a woman or girl that covers the body and extends down over the legs",
+    "ipa": "/dres/"
+  },
+  "drink": {
+    "vi": "Đồ uống",
+    "en": "Take a liquid into the mouth and swallow",
+    "ipa": "/drɪŋk/"
+  },
+  "drive": {
+    "vi": "Lái xe",
+    "en": "Operate and control the direction and speed of a motor vehicle",
+    "ipa": "/draɪv/"
+  },
+  "drop": {
+    "vi": "Giọt",
+    "en": "Let or make (something) fall vertically",
+    "ipa": "/drɒp/"
+  },
+  "effect": {
+    "vi": "Hiệu ứng",
+    "en": "A change which is a result or consequence of an action or other cause",
+    "ipa": "/ɪˈfekt/"
+  },
+  "effort": {
+    "vi": "Sự nỗ lực",
+    "en": "A vigorous or determined attempt",
+    "ipa": "/ˈef.ət/"
+  },
+  "expert": {
+    "vi": "Chuyên gia",
+    "en": "A person who has a comprehensive and authoritative knowledge of or skill in a particular area",
+    "ipa": "/ˈek.spɜːt/"
+  },
+  "fact": {
+    "vi": "Sự thật",
+    "en": "A thing that is indisputably the case",
+    "ipa": "/fækt/"
+  },
+  "factor": {
+    "vi": "Yếu tố",
+    "en": "A circumstance, fact, or influence that contributes to a result or outcome",
+    "ipa": "/ˈfæk.tər/"
+  },
+  "factory": {
+    "vi": "Nhà máy",
+    "en": "A building or group of buildings where goods are manufactured or assembled chiefly by machine",
+    "ipa": "/ˈfæk.tər.i/"
+  },
+  "family": {
+    "vi": "Gia đình",
+    "en": "A group of one or more parents and their children living together as a unit",
+    "ipa": "/ˈfæm.əl.i/"
+  },
+  "farm": {
+    "vi": "Nông trại",
+    "en": "An area of land and its buildings used for growing crops and rearing animals",
+    "ipa": "/fɑːm/"
+  },
+  "farmer": {
+    "vi": "Nông dân",
+    "en": "A person who owns or manages a farm",
+    "ipa": "/ˈfɑː.mər/"
+  },
+  "father": {
+    "vi": "Bố",
+    "en": "A man in relation to his natural child or children",
+    "ipa": "/ˈfɑː.ðər/"
+  },
+  "fear": {
+    "vi": "Nỗi sợ",
+    "en": "An unpleasant emotion caused by the belief that someone or something is dangerous",
+    "ipa": "/fɪər/"
+  },
+  "field": {
+    "vi": "Cánh đồng",
+    "en": "An area of open land, especially one planted with crops or pasture",
+    "ipa": "/fiːld/"
+  },
+  "fight": {
+    "vi": "Cuộc chiến",
+    "en": "Take part in a violent struggle involving the exchange of physical blows or the use of weapons",
+    "ipa": "/faɪt/"
+  },
+  "figure": {
+    "vi": "Hình dáng",
+    "en": "A number, especially one which forms part of official statistics",
+    "ipa": "/ˈfɪɡ.ər/"
+  },
+  "film": {
+    "vi": "Bộ phim",
+    "en": "A story or event recorded by a camera as a set of moving images",
+    "ipa": "/fɪlm/"
+  },
+  "finger": {
+    "vi": "Ngón tay",
+    "en": "Each of the four slender jointed parts attached to either hand",
+    "ipa": "/ˈfɪŋ.ɡər/"
+  },
+  "floor": {
+    "vi": "Sàn nhà",
+    "en": "The lower surface of a room, on which one may walk",
+    "ipa": "/flɔːr/"
+  },
+  "focus": {
+    "vi": "Trọng tâm",
+    "en": "The center of interest or activity",
+    "ipa": "/ˈfəʊ.kəs/"
+  },
+  "food": {
+    "vi": "Thức ăn",
+    "en": "Any nutritious substance that people or animals eat or drink",
+    "ipa": "/fuːd/"
+  },
+  "foot": {
+    "vi": "Bàn chân",
+    "en": "The lower extremity of the leg below the ankle",
+    "ipa": "/fʊt/"
+  },
+  "force": {
+    "vi": "Lực lượng",
+    "en": "Strength or energy as an attribute of physical action or movement",
+    "ipa": "/fɔːs/"
+  },
+  "form": {
+    "vi": "Hình thức",
+    "en": "The visible shape or configuration of something",
+    "ipa": "/fɔːm/"
+  },
+  "friend": {
+    "vi": "Bạn bè",
+    "en": "A person whom one knows and with whom one has a bond of mutual affection",
+    "ipa": "/frend/"
+  },
+  "front": {
+    "vi": "Phía trước",
+    "en": "The side or part of an object that presents itself to view",
+    "ipa": "/frʌnt/"
+  },
+  "fruit": {
+    "vi": "Trái cây",
+    "en": "The sweet and fleshy product of a tree or other plant that contains seed and can be eaten",
+    "ipa": "/fruːt/"
+  },
+  "future": {
+    "vi": "Tương lai",
+    "en": "The time or a period of time following the moment of speaking or writing",
+    "ipa": "/ˈfjuː.tʃər/"
+  },
+  "garden": {
+    "vi": "Khu vườn",
+    "en": "A piece of ground, often near a house, used for growing flowers, fruit, or vegetables",
+    "ipa": "/ˈɡɑː.dən/"
+  },
+  "gas": {
+    "vi": "Khí gas",
+    "en": "A substance or matter in a state in which it will expand freely to fill the whole of a container",
+    "ipa": "/ɡæs/"
+  },
+  "gate": {
+    "vi": "Cánh cổng",
+    "en": "A hinged barrier used to close an opening in a wall, fence, or hedge",
+    "ipa": "/ɡeɪt/"
+  },
+  "gift": {
+    "vi": "Món quà",
+    "en": "A thing given willingly to someone without payment",
+    "ipa": "/ɡɪft/"
+  },
+  "glass": {
+    "vi": "Thủy tinh",
+    "en": "A hard, brittle substance, typically transparent or translucent",
+    "ipa": "/ɡlɑːs/"
+  },
+  "goal": {
+    "vi": "Mục tiêu",
+    "en": "The object of a person's ambition or effort; an aim or desired result",
+    "ipa": "/ɡəʊl/"
+  },
+  "group": {
+    "vi": "Nhóm",
+    "en": "A number of people or things that are located close together or are considered or classed together",
+    "ipa": "/ɡruːp/"
+  },
+  "guest": {
+    "vi": "Khách",
+    "en": "A person who is invited to visit the home of or take part in a function organized by another",
+    "ipa": "/ɡest/"
+  },
+  "guide": {
+    "vi": "Hướng dẫn",
+    "en": "A person who advises or shows the way to others",
+    "ipa": "/ɡaɪd/"
+  },
+  "hair": {
+    "vi": "Tóc",
+    "en": "Any of the fine threadlike strands growing from the skin of humans, mammals, and some other animals",
+    "ipa": "/heər/"
+  },
+  "half": {
+    "vi": "Một nửa",
+    "en": "Either of two equal or corresponding parts into which something is or can be divided",
+    "ipa": "/hɑːf/"
+  },
+  "hall": {
+    "vi": "Hội trường",
+    "en": "An area in a building onto which rooms open; a corridor",
+    "ipa": "/hɔːl/"
+  },
+  "head": {
+    "vi": "Cái đầu",
+    "en": "The upper part of the human body, or the front or upper part of the body of an animal",
+    "ipa": "/hed/"
+  },
+  "health": {
+    "vi": "Sức khỏe",
+    "en": "The state of being free from illness or injury",
+    "ipa": "/helθ/"
+  },
+  "heat": {
+    "vi": "Hơi nóng",
+    "en": "The quality of being hot; high temperature",
+    "ipa": "/hiːt/"
+  },
+  "history": {
+    "vi": "Lịch sử",
+    "en": "The study of past events, particularly in human affairs",
+    "ipa": "/ˈhɪs.tər.i/"
+  },
+  "hole": {
+    "vi": "Cái lỗ",
+    "en": "A hollow place in a solid body or surface",
+    "ipa": "/həʊl/"
+  },
+  "home": {
+    "vi": "Ngôi nhà",
+    "en": "The place where one lives permanently, especially as a member of a family or household",
+    "ipa": "/həʊm/"
+  },
+  "hope": {
+    "vi": "Hy vọng",
+    "en": "A feeling of expectation and desire for a certain thing to happen",
+    "ipa": "/həʊp/"
+  },
+  "hospital": {
+    "vi": "Bệnh viện",
+    "en": "An institution providing medical and surgical treatment and nursing care for sick or injured people",
+    "ipa": "/ˈhɒs.pɪ.təl/"
+  },
+  "hotel": {
+    "vi": "Khách sạn",
+    "en": "An establishment providing accommodations, meals, and other services for travelers and tourists",
+    "ipa": "/həʊˈtel/"
+  },
+  "hour": {
+    "vi": "Giờ",
+    "en": "A period of time equal to a twenty-fourth part of a day and night and divided into 60 minutes",
+    "ipa": "/aʊər/"
+  },
+  "image": {
+    "vi": "Hình ảnh",
+    "en": "A representation of the external form of a person or thing in art",
+    "ipa": "/ˈɪm.ɪdʒ/"
+  },
+  "impact": {
+    "vi": "Sự tác động",
+    "en": "The action of one object coming forcibly into contact with another",
+    "ipa": "/ˈɪm.pækt/"
+  },
+  "income": {
+    "vi": "Thu nhập",
+    "en": "Money received, especially on a regular basis, for work or through investments",
+    "ipa": "/ˈɪn.kʌm/"
+  },
+  "industry": {
+    "vi": "Công nghiệp",
+    "en": "Economic activity concerned with the processing of raw materials and manufacture of goods",
+    "ipa": "/ˈɪn.də.stri/"
+  },
+  "information": {
+    "vi": "Thông tin",
+    "en": "Facts provided or learned about something or someone",
+    "ipa": "/ˌɪn.fəˈmeɪ.ʃən/"
+  },
+  "insect": {
+    "vi": "Côn trùng",
+    "en": "A small arthropod animal that has six legs and generally one or two pairs of wings",
+    "ipa": "/ˈɪn.sekt/"
+  },
+  "interest": {
+    "vi": "Sự quan tâm",
+    "en": "The state of wanting to know or learn about something or someone",
+    "ipa": "/ˈɪn.trəst/"
+  },
+  "internet": {
+    "vi": "Mạng internet",
+    "en": "A global computer network providing a variety of information and communication facilities",
+    "ipa": "/ˈɪn.tə.net/"
+  },
+  "issue": {
+    "vi": "Vấn đề",
+    "en": "An important topic or problem for debate or discussion",
+    "ipa": "/ˈɪʃ.uː/"
+  }
 }
