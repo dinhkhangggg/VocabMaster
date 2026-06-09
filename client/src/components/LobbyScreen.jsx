@@ -12,54 +12,54 @@ export default function LobbyScreen({ settings, onSettingsChange, onStart, onOpe
   return (
     <div className="lobby-container glass-panel">
       <h1>SẢNH CHỜ 🎮</h1>
-      <p className="lobby-desc">Tuỳ chỉnh chiến thuật trước khi đối đầu với AI Boss.</p>
+      <p className="lobby-desc">Tuỳ chỉnh</p>
 
       <div className="settings-box">
         <div className="setting-group mode-group">
-          <h3>🎮 Chế Độ Chơi</h3>
+          <h3>Chế độ</h3>
           <div className="btn-group">
             <button 
               className={`choice-btn ${settings.mode === 'chain' ? 'active' : ''}`}
               onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, mode: 'chain' }); }}
             >
-              🔗 Nối Từ
+              Nối từ
             </button>
             <button 
               className={`choice-btn ${settings.mode === 'scramble' ? 'active' : ''}`}
               onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, mode: 'scramble' }); }}
             >
-              🧩 Sắp Xếp Chữ
+              Xếp chữ
             </button>
             <button 
               className={`choice-btn ${settings.mode === 'fillblank' ? 'active' : ''}`}
               onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, mode: 'fillblank' }); }}
             >
-              🕵️ Điền Chữ
+              Điền từ
             </button>
           </div>
         </div>
 
         <div className="settings-grid">
           <div className="setting-group">
-            <h3>🧠 Độ Khó</h3>
+            <h3>Độ khó</h3>
             <div className="btn-group">
               <button 
                 className={`choice-btn ${settings.difficulty === 'easy' ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, difficulty: 'easy' }); }}
               >
-                🟢 Dễ
+                Dễ
               </button>
               <button 
                 className={`choice-btn ${settings.difficulty === 'hard' ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, difficulty: 'hard' }); }}
               >
-                🔥 Khó
+                Khó
               </button>
             </div>
           </div>
 
           <div className="setting-group">
-            <h3>⏳ Thời gian</h3>
+            <h3>Thời gian</h3>
             <div className="btn-group">
               <button 
                 className={`choice-btn ${settings.timeLimit === 15 ? 'active' : ''}`}
@@ -83,31 +83,31 @@ export default function LobbyScreen({ settings, onSettingsChange, onStart, onOpe
           </div>
 
           <div className="setting-group">
-            <h3>❤️ Sai lầm</h3>
+            <h3>❤️ HP</h3>
             <div className="btn-group">
               <button 
                 className={`choice-btn ${settings.maxAttempts === 1 ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, maxAttempts: 1 }); }}
               >
-                1 Lần
+                1
               </button>
               <button 
                 className={`choice-btn ${settings.maxAttempts === 3 ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, maxAttempts: 3 }); }}
               >
-                3 Lần
+                3
               </button>
               <button 
                 className={`choice-btn ${settings.maxAttempts === 5 ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, maxAttempts: 5 }); }}
               >
-                5 Lần
+                5
               </button>
               <button 
                 className={`choice-btn ${settings.maxAttempts === Infinity ? 'active' : ''}`}
                 onClick={() => { SoundManager.typeKey(); onSettingsChange({ ...settings, maxAttempts: Infinity }); }}
               >
-                Vô hạn
+                ∞
               </button>
             </div>
           </div>
@@ -115,8 +115,8 @@ export default function LobbyScreen({ settings, onSettingsChange, onStart, onOpe
       </div>
 
       <div className="lobby-actions">
-        <button className="nav-btn" onClick={() => { SoundManager.typeKey(); onOpenStore(); }}>🛒 Cửa Hàng</button>
-        <button className="primary-btn pulse-btn" onClick={handleStart}>VÀO TRẬN BẤT CHẤP 🚀</button>
+        <button className="nav-btn" onClick={() => { SoundManager.typeKey(); onOpenStore(); }}>🛒 Cửa hàng</button>
+        <button className="primary-btn pulse-btn" onClick={handleStart}>CHIẾN</button>
         <button className="nav-btn" onClick={() => { SoundManager.typeKey(); onOpenFlashcard(); }}>📚 Flashcard</button>
       </div>
     </div>

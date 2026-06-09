@@ -1,10 +1,11 @@
+
 :root {
-  --primary-color: #3b82f6; /* Tech Blue */
-  --secondary-color: #1e293b; /* Slate */
-  --accent-color: #10b981; /* Emerald */
-  --bg-color: #0f172a;
+  --primary-color: #F3DE8A; 
+  --secondary-color: #CE4257; 
+  --accent-color: #DAB785; 
+  --bg-color: #11151C;
   --text-color: #f8fafc;
-  --glass-bg: rgba(30, 41, 59, 0.8);
+  --glass-bg: #212d40ad;
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   --muted-text: #94a3b8;
@@ -16,15 +17,15 @@
 }
 
 :root.light-mode {
-  --primary-color: #2563eb; /* Tech Blue */
-  --secondary-color: #e2e8f0; /* Light Slate */
-  --accent-color: #059669; /* Emerald */
+  --primary-color: #F3DE8A; 
+  --secondary-color: #CE4257; 
+  --accent-color: #DAB785; 
   --bg-color: #f1f5f9;
-  --text-color: #0f172a;
-  --glass-bg: #ffffff;
-  --glass-border: #e2e8f0;
-  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --muted-text: #64748b;
+  --text-color: #2c4c97;
+  --glass-bg: #546a7669;
+  --glass-border: #00000028;
+  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --muted-text: #bccdce;
   --panel-bg: #f8fafc;
   --hint-color: #2563eb;
   --hint-bg: rgba(37, 99, 235, 0.1);
@@ -106,15 +107,14 @@ body {
   line-height: 1.6;
 }
 
-/* Premium Buttons */
 .primary-btn {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   color: #fff;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 1rem 2.5rem;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);

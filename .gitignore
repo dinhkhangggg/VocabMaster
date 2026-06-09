@@ -66,3 +66,6 @@ server/add_words.js
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+client/src/debug/
+
