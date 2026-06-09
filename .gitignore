@@ -51,6 +51,13 @@ server/.env
 client/dist/
 dist/
 
+# Unused files & guides
+firebase_deployment_guide.md
+github_guide.md
+WordChain_ProjectPlan.md
+task.md
+server/add_words.js
+
 # OS generated files
 .DS_Store
 .DS_Store?
