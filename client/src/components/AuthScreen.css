@@ -1,3 +1,4 @@
+
 .auth-container {
   display: flex;
   flex-direction: column;
@@ -30,6 +31,20 @@
   border-color: #00f2fe;
 }
 
+
 .input-group input::placeholder {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.auth-title { 
+  font-weight: bold;
+  margin-bottom: 5px; 
+}
+
+.brand-vocab {
+  color: var(--primary-color); 
+}
+
+.brand-master {
+  color: var(--secondary-color);
 }

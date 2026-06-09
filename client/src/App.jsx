@@ -72,7 +72,7 @@ function App() {
         className="theme-toggle" 
         onClick={() => setIsLightMode(!isLightMode)}
       >
-        {isLightMode ? '🌙 Chế độ Tối' : '☀️ Chế độ Sáng'}
+        {isLightMode ? '🌙 ' : '☀️'}
       </button>
 
       {!player ? (
