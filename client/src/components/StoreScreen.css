@@ -1,0 +1,82 @@
+.store-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.store-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+}
+
+.coin-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fbbf24;
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid #00f2fe;
+  color: #00f2fe;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.back-btn:hover {
+  background: #00f2fe;
+  color: #000;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.store-item {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.store-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 242, 254, 0.2);
+}
+
+.item-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.store-item p {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin: 15px 0;
+  height: 40px;
+}
+
+.buy-btn {
+  background: linear-gradient(to right, #fbbf24, #f59e0b);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+.buy-btn:hover {
+  transform: scale(1.05);
+}

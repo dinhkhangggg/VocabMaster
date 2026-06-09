@@ -1,0 +1,454 @@
+.game-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  background: var(--bg-color);
+}
+
+.game-container {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 30px;
+  padding: 30px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.game-main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100%;
+  min-height: 0; /* Ngăn Grid Blowout theo chiều dọc */
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 20px;
+  background: var(--panel-bg);
+  padding: 15px 25px;
+  border-radius: 16px;
+}
+
+.player-info {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.vip-avatar {
+  display: inline-block;
+  padding: 4px;
+  background: linear-gradient(45deg, #fbbf24, #f59e0b);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.6);
+  animation: pulse-vip 2s infinite;
+}
+
+@keyframes pulse-vip {
+  0% { box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(245, 158, 11, 0.8); }
+  100% { box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
+}
+
+.player-info span {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.timer {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--timer-color);
+  background: var(--timer-bg);
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.timer.danger {
+  color: #ff6b6b;
+  text-shadow: none;
+  animation: pulse 0.8s infinite;
+  border-color: rgba(255, 107, 107, 0.3);
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  background: rgba(0, 242, 254, 0.1);
+  border: 1px solid rgba(0, 242, 254, 0.3);
+  color: #00f2fe;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-btn:hover {
+  background: #00f2fe;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}
+
+.surrender-btn {
+  background: rgba(255, 71, 87, 0.1);
+  border: 1px solid rgba(255, 71, 87, 0.3);
+  color: #ff4757;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.surrender-btn:hover {
+  background: #ff4757;
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 71, 87, 0.4);
+}
+
+.battle-arena {
+  text-align: center;
+  padding: 0;
+  flex: 1; /* Chiếm toàn bộ khoảng trống ở giữa màn hình */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* Cuộn nếu chữ khổng lồ */
+}
+
+.bot-avatar {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
+.bot-word {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.bot-def {
+  font-size: 1.3rem;
+  color: var(--muted-text);
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.rule-hint {
+  font-size: 1.2rem;
+  color: var(--hint-color);
+  background: var(--hint-bg);
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  border: 1px solid var(--hint-bg);
+}
+
+.input-arena {
+  display: flex;
+  gap: 15px;
+  background: var(--panel-bg);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.word-input {
+  flex: 1;
+  padding: 20px 25px;
+  border-radius: 16px;
+  border: 2px solid var(--glass-border);
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.word-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background: var(--bg-color);
+}
+
+.word-input::placeholder {
+  color: var(--muted-text);
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+.input-error {
+  border-color: #ff4757 !important;
+  box-shadow: 0 0 20px rgba(255, 71, 87, 0.3) !important;
+  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.error-text {
+  color: #ff4757;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 600;
+}
+
+/* SIDEBAR: NHẬT KÝ TRẬN ĐẤU */
+.game-sidebar {
+  background: var(--panel-bg);
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0; /* Ép Sidebar không được phép phình to đẩy khung */
+}
+
+.game-sidebar h3 {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.history-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 5px;
+}
+
+/* Custom Scrollbar */
+.history-list::-webkit-scrollbar {
+  width: 6px;
+}
+.history-list::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.empty-history {
+  color: var(--muted-text);
+  text-align: center;
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border-left: 4px solid transparent;
+}
+
+.history-item.player {
+  border-left-color: #00f2fe;
+}
+
+.history-item.bot {
+  border-left-color: #ff4757;
+}
+
+.history-actor {
+  font-size: 0.9rem;
+  color: var(--muted-text);
+}
+
+.history-word {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  letter-spacing: 1px;
+}
+
+/* CUSTOM MODAL OVERLAY CHỐNG PHÈN */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(2, 6, 23, 0.9);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: linear-gradient(145deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+  text-align: center;
+  padding: 50px;
+  border-radius: 32px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-weight: 900;
+}
+
+.modal-content p {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bounce-in {
+  animation: modalPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes modalPop {
+  0% { transform: scale(0.8) translateY(30px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(4px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-8px, 0, 0); }
+  40%, 60% { transform: translate3d(8px, 0, 0); }
+}
+
+/* RESPONSIVE DESIGN CHO ĐIỆN THOẠI & TABLET */
+@media (max-width: 900px) {
+  .game-wrapper {
+    position: relative; /* Trả lại thanh cuộn cho mobile */
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .game-container {
+    grid-template-columns: 1fr; /* Gộp thành 1 cột */
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .game-sidebar {
+    height: 400px; /* Đặt chiều cao cố định khi bị đẩy xuống dưới cùng */
+  }
+  
+  .game-header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .player-info {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 1.5rem;
+  }
+  
+  .header-actions {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .battle-arena {
+    height: auto; 
+    min-height: 300px;
+    padding: 20px 0;
+  }
+  
+  .bot-avatar {
+    font-size: 2.5rem;
+  }
+  
+  .bot-word {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
+  
+  .bot-def {
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+  
+  .rule-hint {
+    font-size: 1rem;
+  }
+  
+  .input-arena {
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .word-input {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+  
+  .primary-btn {
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 30px 20px;
+  }
+
+  .modal-content h2 {
+    font-size: 2rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+}
