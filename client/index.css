@@ -4,7 +4,7 @@
   --secondary-color: #CE4257; 
   --accent-color: #DAB785; 
   --bg-color: #11151C;
-  --text-color: #f8fafc;
+  --text-color: #D0CFEC;
   --glass-bg: #212d40ad;
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
@@ -20,9 +20,9 @@
   --primary-color: #F3DE8A; 
   --secondary-color: #CE4257; 
   --accent-color: #DAB785; 
-  --bg-color: #f1f5f9;
-  --text-color: #2c4c97;
-  --glass-bg: #546a7669;
+  --bg-color: #026c7c;
+  --text-color: #d1d1d1;
+  --glass-bg: #212d4041;
   --glass-border: #00000028;
   --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   --muted-text: #bccdce;
@@ -80,7 +80,6 @@ body {
   justify-content: center;
 }
 
-/* Premium Glassmorphism */
 .glass-panel {
   background: var(--glass-bg);
   backdrop-filter: blur(20px);
@@ -134,7 +133,6 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* RESPONSIVE DESIGN CHUNG */
 @media (max-width: 768px) {
   .app-container {
     padding: 10px;

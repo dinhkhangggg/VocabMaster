@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './AuthScreen.css';
+import wmLogo from '../asset/icons/wm.svg';
 
 export default function AuthScreen({ onLogin, isLightMode }) {
   const [username, setUsername] = useState('');
@@ -13,6 +14,9 @@ export default function AuthScreen({ onLogin, isLightMode }) {
   return (
     <div className={`auth-wrapper ${isLightMode ? 'light-mode' : 'dark-mode'}`}>
       <div className={"auth-container glass-panel"}>
+        <div className="logo-container">
+          <img src={wmLogo}/>
+        </div>
         <h1 className="auth-title">
           <span className="brand-vocab">Vocab</span>
           <span className="brand-master">Master</span>
