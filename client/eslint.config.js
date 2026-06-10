@@ -22,6 +22,11 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    settings: {
+      react: {
+        version: 'detect', 
+      },
+    },
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
@@ -30,10 +35,15 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react-hooks/set-state-in-effect': 'off',
       'no-unused-vars': 'warn',
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
       'no-console': 'warn',
+      
+      'react/no-unescaped-entities': 'off',
+
+      'react-hooks/exhaustive-deps': 'warn',
     },
   },
 ]
